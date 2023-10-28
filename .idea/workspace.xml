@@ -19,105 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a089fa2f-5557-4e44-a3dc-116f4ee46913" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/p1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/css/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/css/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/css/takematsu_about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/Btn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/Group 24099.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/Group 24099@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/Img@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/Intro_Img_About_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/Intro_Img_About_pc@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/message@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_abou_mb_Img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_abou_mb_Img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Btn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Btn@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Btn_mb@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_CTA_Bottom_Logo_sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_CTA_Bottom_Logo_sp@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_CTA_sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_CTA_sp@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Concept.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Ellipse 2281.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Ellipse 2281@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Group 25023@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Group 25045.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Group 25045@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Group 25298.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Group 25298@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Group25024@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Group_25023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Group_3_25023@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Icon_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Icon_arrow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Icon_newwindow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Icon_newwindow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Img@2x (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Img@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Img_mb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Intro_Dot_About_sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Intro_Dot_About_sp@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Intro_Img_About_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Intro_Img_About_pc@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Intro_Img_About_sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Intro_Img_About_sp@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Message_Bg_About_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Message_Bg_About_pc@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Message_Bg_Town_Top_sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Message_Bg_Town_Top_sp@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Message_Img1_About_sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Message_Img1_About_sp@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Message_Img2_About_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Message_Img2_About_pc@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Message_Img2_About_sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Message_Img2_About_sp@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Message_Img3_About_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Message_Img3_About_pc@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Message_Mark_About_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Message_Mark_About_pc@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Movie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Movie@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Movie_mb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Movie_mb@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Movie_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Movie_pc@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Title.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_Title@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about__Bg@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about__Movie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about__Movie@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_bg_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_logo_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_logo_pc@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_logo_title_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_logo_title_pc.png@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_mb@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_mbMessage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_mb_Img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_mb_Img@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_message (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_message.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_message@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_pc_Group 25023@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/takematsu_about_rps_mb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/武松グループについて_PC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/武松グループについて_PC@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/js/takematsu_about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/New Text Document.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="a089fa2f-5557-4e44-a3dc-116f4ee46913" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +58,7 @@
       <updated>1698197449920</updated>
       <workItem from="1698197451097" duration="10605000" />
       <workItem from="1698302973465" duration="11728000" />
-      <workItem from="1698369027196" duration="28322000" />
+      <workItem from="1698369027196" duration="29030000" />
     </task>
     <servers />
   </component>
