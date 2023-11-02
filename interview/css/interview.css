@@ -725,6 +725,55 @@ body {
         width: 388px;
         font-size: 18px;
     }
+    #interview .box-btn .btn-left-footer:hover {
+        color: #00a73c;
+        border: 2px solid #00a73c;
+        background-size: unset;
+    }
+    #interview .box-btn .btn-left-footer:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 500px;
+        height: 500px;
+        background-color: #fff;
+        border-color: transparent;
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 1;
+        z-index: -1;
+        transition: .4s;
+        border-radius: 100%;
+    }
+    #interview .box-btn .btn:hover:after {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    #interview .box-btn .btn-right-footer:hover {
+        color: #0068B7;
+        border: 2px solid #0068B7;
+        background-size: unset;
+    }
+    #interview .box-btn .btn:hover:after {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    #interview .box-btn .btn-right-footer:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 500px;
+        height: 500px;
+        background-color: #fff;
+        border-color: transparent;
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 1;
+        z-index: -1;
+        transition: .4s;
+        border-radius: 100%;
+    }
     #interview .section-5 .btn svg {
         width: 40px;
         height: 40px;
@@ -1066,4 +1115,8 @@ body {
     #interview .section-content .introduce .introduce1__image:before {
         background-size: 88%;
     }
+}
+
+.section-bg .box-image{
+    text-align: center;
 }
