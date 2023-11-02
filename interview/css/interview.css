@@ -156,7 +156,18 @@ body {
     left: 0px;
     letter-spacing: 1.4px;
 }
-
+#interview .section-4 .outstanding-big-title {
+    top: 8px;
+}
+/*#interview .section-4 .outstanding-desc-1 {*/
+/*    top: 22px;*/
+/*}*/
+/*#interview .section-4 .outstanding-desc-2 {*/
+/*    top: 22px;*/
+/*}*/
+#interview .section-4 .section-bg .section-content {
+    margin-top: 23px;
+}
 #interview .outstanding-desc-1 {
     font-size: 14px;
     font-weight: bold;
@@ -273,7 +284,7 @@ body {
     font-style: italic;
     text-transform: uppercase;
     line-height: 48px;
-    padding-top: 42px;
+    padding-top: 44px;
     letter-spacing: 1.6px;
 }
 #interview .section-2 .introduce3_big_title {
@@ -331,7 +342,7 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
     padding: 27px 20px 20px 20px;
-    margin-top: -230px
+    margin-top: -233px;
 }
 
 #interview .section-3 .outstanding-big-title {
@@ -351,7 +362,7 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
     padding: 27px 20px 20px 20px;
-    margin-top: -209px;
+    margin-top: -232px;
 }
 
 #interview .introduce3_description {
@@ -430,6 +441,7 @@ body {
     height: 100%;
     position: absolute;
     top: 62px;
+    background-position-y: 148px;
 }
 
 #interview .section-5 .bg-4 {
@@ -521,7 +533,7 @@ body {
 #interview .only-pc {
     display: none;
 }
-@media print, screen and (min-width: 768px) {
+@media print, screen and (min-width: 767px) {
 
     #interview .only-mb {
         display: none;
@@ -612,23 +624,122 @@ body {
         padding-right: 65px;
     }
     #interview .section-3 .section-content .outstanding {
+        background-image: url(../images/interview/interview_pc_Intro_Bg_3.png);
         max-width: 600px;
-        top: -250px;
+        top: -219px;
         right: 12px;
         position: absolute;
+        padding-left: 40px;
+        padding-right: 65px;
     }
     #interview .section-3 .outstanding-big-title {
-        top: -4px;
-        left: 20px;
+        top: -32px;
+        left: 0px;
+    }
+    #interview .section-3 .outstanding-desc-1 {
+        top: -45px;
     }
     #interview .section-3 {
         margin-top: 219px;
     }
     #interview .section-4 .section-content .outstanding {
         max-width: 600px;
+        margin-top: -450px;
+        background-image: url(../images/interview/interview_section_4_bg_pc.png);
+        padding-left: 41px;
+    }
+    #interview .section-4 .outstanding-big-title {
+        top: -57px;
+    }
+    #interview .section-4 .section-content .introduce .introduce1__image {
+        padding-top: 166px;
+    }
+    #interview .section-4 .introduce2 .introduce2__image {
+        padding-top: 27px;
+    }
+    #interview .section-4 .introduce3_bg {
+        background-image: url(../images/interview/interview_Sales_Comment-Bg_Interview_pc@2x.png);
+        height: 356px;
+        background-size: 100%;
+    }
+    #interview .section-4 .introduce .content {
+        margin-top: 79px;
+    }
+    #interview .section-4 .introduce .introduce3_bg .introduce3_description {
+        top: 37px;
+    }
+    #interview .section-4 .introduce3_big_title {
+        top: -13px;
+    }
+    #interview .section-4 .introduce2 .qa_bl2 .qa_bl1_answer {
+        top: 14px;
+    }
+    #interview .section-5 .bg-4:before {
+        background-image: url(../images/interview/interview_Img.png);
+    }
+    #interview .section-5 .bg-4 {
+        max-width: none;
+        padding-bottom: 200px;
+    }
+    #interview .section-5 .wrap-content .logo {
+        width: 13.1%;
+        padding-top: 60px !important;
+    }
+    #interview .section-5 .wrap-content .box-text-1 .line {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1.8;
+        letter-spacing: 5px;
+    }
+    #interview .section-5 .wrap-content .box-text-2 {
+        font-size: 16px;
+        line-height: 50px;
+        z-index: 3;
+    }
+    #interview .section-5 .wrap-content {
+        margin-top: 103px;
+        padding-bottom: 100px;
+    }
+    #interview .section-5 .wrap-content .box-btn {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        max-width: 856px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+    #interview .box-btn .btn {
+        position: relative;
+        /* background-image: linear-gradient(#00a73c, #00a73c); */
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 0% 100%;
+        transition: background-size .3s, color .3s;
+        overflow: hidden;
+        z-index: 0;
+        border: 2px solid #ffffff;
+        padding-left: 40px;
+        line-height: 3.5;
+        border-radius: 40px;
+        width: 388px;
+        font-size: 18px;
+    }
+    #interview .section-5 .btn svg {
+        width: 40px;
+        height: 40px;
+    }
+    #interview .section-5 .btn span {
+        line-height: 1;
+        margin-right: 10px;
     }
     #interview .section-3 .section-content {
         background: #EDF8FE;
+        border-bottom-right-radius: 60px;
+        border-bottom-left-radius: 60px;
+    }
+    #interview .section-2 {
+        border-radius: 60px;
     }
     #interview .outstanding-big-title {
         font-size: 80px;
@@ -640,7 +751,7 @@ body {
     #interview .outstanding-desc-1 {
         font-size: 24px;
         line-height: 38px;
-        top: -46px;
+        top: -48px;
     }
     #interview .outstanding-desc-1:after {
         content: '';
@@ -656,6 +767,7 @@ body {
         font-size: 40px;
         line-height: 64px;
         top: -36px;
+        padding-right: 177px;
     }
     #interview .outstanding-desc-3 {
         font-size: 20px;
@@ -664,10 +776,68 @@ body {
     }
     #interview .outstanding-desc-3 span {
         font-size: 32px;
-        top: 3px;
+        top: 5px;
+    }
+    #interview .section-3 .section-content .introduce .introduce1__image {
+        padding-top: 79px;
+    }
+    #interview .section-3 .introduce1 .introduce1__text {
+        padding-top: 128px;
+        padding-left: 40px;
+    }
+    #interview .section-3 .introduce2 .introduce2__image {
+        padding-top: 65px;
+    }
+    #interview .section-3 .introduce2_qa {
+        padding-top: 180px;
+    }
+    #interview .section-3 .qa_bl1_question {
+        margin-bottom: 46px;
     }
     #interview .section-content .inner {
        max-width: 1224px;
+    }
+    #interview .section-3 .introduce2_qa .qa_bl2 {
+        padding-top: 43px;
+    }
+    #interview .section-3 .introduce2_qa .qa_bl2:after {
+        border: 1px solid #0068B7;
+    }
+    #interview .section-3 .qa_bl2 .qa_bl1_question:before {
+        top: 3px;
+    }
+    #interview .section-3 .qa_bl2 .qa_bl1_question {
+        margin-bottom: 37px;
+    }
+    #interview .section-3 .introduce3_bg {
+        background-image: url(../images/interview/interview_Operator_Comment-Bg_Interview_pc.png);
+        padding-top: 37px;
+    }
+    #interview .section-3 .introduce3_big_title .title_small {
+        top: 56%;
+        left: -2px;
+    }
+    #interview .section-3 .introduce3_big_title {
+        color: #0063AA;
+        left: 2px;
+        top: -4px;
+    }
+    #interview .section-3 .introduce .content  {
+        margin-top: 40px;
+    }
+    #interview .section-3 .introduce3_bg .title_primary{
+        top: 11px;
+    }
+    #interview .text-description .text-description p {
+        top: 11px;
+        padding-right: 13px;
+    }
+    #interview .section-3 .introduce3_bg .text-description p {
+        padding-right: 15px;
+        margin-top: 35px;
+    }
+    #interview .section-4 {
+        margin-top: 219px;
     }
     #interview .introduce .introduce1 {
         display: flex;
@@ -680,9 +850,22 @@ body {
         width: 50%;
         padding-top: 60px;
         padding-left: 40px;
+        z-index: 1;
     }
     #interview .section-content .introduce .introduce1__image {
         padding-top: 147px;
+    }
+    #interview .section-content .introduce .introduce1__image:before {
+        content: '';
+        background-image: url(../images/interview/interview_Bg1_Interview_pc@2x.png);
+        background-repeat: no-repeat;
+        background-size: 95%;
+        position: absolute;
+        width: 100%;
+        height: 106%;
+        right: 60%;
+        top: 13%;
+
     }
     #interview .introduce1__big-title {
         font-size: 32px;
@@ -711,6 +894,21 @@ body {
     #interview .introduce2 .introduce2__image {
         padding-top: 60px;
         width: 50%;
+    }
+    #interview .introduce2 .introduce2__image:after{
+        content: '';
+        background-image: url(../images/interview/interview_Bg2_Interview_pc.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 72%;
+        top: -19%;
+        z-index: 0;
+        background-size: contain;
+    }
+    .introduce2__image picture {
+        z-index: 1;
     }
     #interview .introduce2_qa {
         padding-top: 133px;
@@ -806,5 +1004,66 @@ body {
     #interview .section-2 .introduce3_big_title {
         top: -14px;
     }
+    #interview .section-4 .introduce {
+        background: #EDFEEE;
+        border-bottom-right-radius: 60px;
+        border-bottom-left-radius: 60px;
+    }
+    #interview .introduce {
+        border-bottom-right-radius: 60px;
+        border-bottom-left-radius: 60px;
+    }
 
+}
+
+/* No less than 400px, no greater than 900px */
+@media (min-width:768px) and (max-width:1024px) {
+    #interview .outstanding-desc-2 {
+        font-size: 25px;
+        line-height: 35px;
+        top: -13px;
+    }
+    #interview .outstanding-desc-3 span {
+        font-size: 20px;
+        top: 5px;
+    }
+    #interview .outstanding-desc-3 {
+        font-size: 20px;
+        top: -15px;
+    }
+    #interview .outstanding-desc-1 {
+        top: -18px;
+    }
+    #interview .section-2 .section-content .outstanding {
+        margin-top: -375px;
+        padding-top: 19px;
+    }
+    #interview .outstanding-big-title {
+        font-size: 40px;
+        top: -11px;
+    }
+    #interview .outstanding-desc-2 {
+        padding-right: 126px;
+    }
+    #interview .section-3 .section-content .outstanding {
+        background-size: 81%;
+        padding-left: 109px;
+        padding-right: 103px;
+    }
+    #interview .section-4 .section-content .outstanding {
+        background-size: 80%;
+        padding-left: 83px;
+        padding-right: 87px;
+        margin-top: -452px;
+        padding-top: 40px;
+    }
+    #interview .section-4 .outstanding-big-title {
+        top: -22px;
+    }
+}​
+
+@media print, screen and (min-width: 1920px) {
+    #interview .section-content .introduce .introduce1__image:before {
+        background-size: 88%;
+    }
 }
