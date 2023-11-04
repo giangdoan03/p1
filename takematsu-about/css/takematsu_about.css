@@ -1,0 +1,1204 @@
+/*------------------------------------------------------------
+common
+------------------------------------------------------------*/
+body {
+    font-family: 'Noto Sans JP', 'Century Gothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 游ゴシック体, YuGothic, "Yu Gothic Medium", 游ゴシック, 'Yu Gothic', メイリオ, Meiryo, sans-serif;
+}
+
+#takematsu_about * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#takematsu_about {
+    font-size: 13px;
+    font-weight: 500;
+    color: #000;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+}
+
+#takematsu_about a {
+    transition: opacity .3s;
+}
+
+#takematsu_about a[href^="tel:"] {
+    display: inline-block;
+    transition: none;
+}
+
+#takematsu_about a:hover {
+    text-decoration: none;
+}
+
+#takematsu_about a:focus-visible {
+    outline: none;
+}
+
+#takematsu_about img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+#takematsu_about .js-fadein {
+    opacity: 0;
+    transform: translate(0, 20px);
+    transition-property: opacity, transform;
+    transition-duration: 1s;
+}
+
+#takematsu_about .scroll-in {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+#takematsu_about .pc-br {
+    display: none;
+}
+
+#takematsu_about .sp-br {
+    display: inline;
+}
+
+#takematsu_about .inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+#takematsu_about .top-bar {
+    height: 100px;
+    width: 100%;
+}
+
+#takematsu_about .section-1 .title-page {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50px;
+    padding-bottom: 48px;
+}
+
+#takematsu_about .section-1 .title-page:after {
+    content: '';
+    width: 65px;
+    height: 4px;
+    background: #00A73C;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 48px;
+}
+
+#takematsu_about .section-1 .wrap-content {
+    background-image: url("../images/takematsu-about/takematsu_about__Bg@2x.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+#takematsu_about .section-1 .wrap-content .box-text-1 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 16px;
+    padding-top: 43px;
+    line-height: 25px;
+}
+
+#takematsu_about .section-1 .wrap-content .box-text-2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0068B7;
+    line-height: 32px;
+    padding-top: 20px;
+    padding-left: 16px;
+    padding-right: 17px;
+}
+
+#takematsu_about .section-1 .wrap-content .logo-desc {
+    width: 93%;
+    left: 12.6px;
+    top: 4px;
+}
+
+#takematsu_about .section-1 .box-image {
+    padding-top: 34px;
+}
+
+#takematsu_about .section-2 .box-movie .title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
+}
+
+#takematsu_about .box-movie .title .icon {
+    width: 15.2%;
+    margin: 0 auto;
+    height: 32px;
+}
+
+#takematsu_about .box-movie .title .icon img {
+    top: -11px;
+}
+
+#takematsu_about .box-movie .bg-movie-bottom {
+    padding-top: 10px;
+}
+
+.bg-movie {
+    background-image: url(../images/takematsu-about/takematsu_about_Message_Bg_Town_Top_sp.png);
+    background-repeat: no-repeat;
+    display: block;
+    background-size: 100%;
+    background-position: bottom;
+    padding-bottom: 99px !important;
+}
+
+#takematsu_about .box-movie .bg-movie-bottom {
+    padding-top: 10px;
+}
+
+#takematsu_about .box-movie {
+    padding-top: 31px;
+}
+
+#takematsu_about .box-movie .box-link {
+    padding-top: 58px;
+}
+
+#takematsu_about .box-movie .box-link .btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#takematsu_about .box-movie .box-link .btn span {
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    border-radius: 30px;
+    margin-left: 5px;
+}
+
+#takematsu_about .box-movie .btn-item {
+    color: #ffffff;
+    border-radius: 30px;
+    margin-bottom: 19px;
+    font-weight: 700;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+#takematsu_about .box-movie .btn-item:nth-child(1) {
+    padding: 6px 16px;
+    background: #00A73C;
+}
+
+#takematsu_about .box-movie .btn-item:nth-child(2) {
+    padding: 6px 20px;
+    background: #0068B7;
+    left: 4px;
+}
+
+#takematsu_about .box-movie .btn-item:nth-child(3) {
+    background: #00A73C;
+    padding: 6px 19px;
+    margin-bottom: 78px;
+    top: 0px;
+}
+
+#takematsu_about .image-box.item-image .title {
+    font-size: 20px;
+    color: #00A73C;
+    font-weight: 700;
+}
+
+#takematsu_about .image-box.item-image .title:after {
+    content: '';
+    background: #00A73C;
+    width: 63%;
+    height: 1px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+}
+
+#takematsu_about .section-3 .item-image .box-text {
+    font-size: 24px;
+    font-weight: 700;
+    padding-right: 11px;
+    padding-top: 13px;
+}
+
+#takematsu_about .box-movie .btn-item img {
+    width: 14px;
+}
+
+#takematsu_about span.text-color-2 {
+    color: #00A73C;
+}
+
+#takematsu_about span.text-color-1 {
+    color: #0068B7;
+}
+
+#takematsu_about .section-3 .item-image .image-desc {
+    margin-top: 81px;
+}
+
+#takematsu_about .section-3 .title.title-icon {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 33px;
+    margin-bottom: 9px;
+    padding-top: 11px;
+}
+
+#takematsu_about .section-3 .title-icon:before {
+    content: '';
+    background-image: url(../images/takematsu-about/takematsu_about_Message_Mark_About_pc.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: -32px
+}
+
+#takematsu_about .image-box-1 .box-text {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
+#takematsu_about .section-3 .title-big {
+    font-size: 24px;
+    color: #00A73C;
+    font-weight: 700;
+    padding-right: 10px;
+    line-height: 38px;
+}
+
+#takematsu_about .section-3 .btn-big {
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 22px;
+    padding: 16px 19px;
+}
+
+#takematsu_about .section-3 .btn-green-big {
+    border: 4px solid #00A73C;
+    color: #00A73C;
+}
+
+#takematsu_about .section-3 .btn-blue-big {
+    border: 4px solid #0068B7;
+    color: #0068B7;
+}
+
+
+#takematsu_about .section-3 .btn-big .icon svg {
+    width: 40px;
+    height: 40px;
+    margin-right: -7px;
+    top: 4px;
+}
+
+#takematsu_about .section-3 .image-box-1 .box-text {
+    padding-right: 0;
+    line-height: 25px;
+    padding-top: 9px;
+}
+
+#takematsu_about .section-3 .image-box-1 .image-desc {
+    margin-top: 40px;
+}
+
+#takematsu_about .section-3 .image-box-2 .title-big {
+    color: #0068B7;
+}
+
+#takematsu_about .section-3 .image-box-2 .box-text {
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 0;
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+#takematsu_about .section-3 .wrap-image-desc {
+    margin-top: 80px !important;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#takematsu_about .image-desc-2 {
+    padding-top: 20px;
+}
+
+#takematsu_about .wrap-image-desc .content-text {
+    padding: 0 12px;
+}
+
+#takematsu_about .wrap-image-desc .box-text-1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0068B7;
+}
+
+#takematsu_about .wrap-image-desc .box-text-2 {
+    margin-top: 13px;
+    padding-right: 0;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+#takematsu_about .wrap-image-desc .box-text-3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 12px;
+}
+
+#takematsu_about .section-4 .wrap-content {
+    text-align: center;
+    margin-top: 107px;
+    padding-bottom: 100px;
+}
+
+#takematsu_about .section-4 .wrap-content .logo {
+    width: 40%;
+    margin: 0 auto;
+}
+
+#takematsu_about .section-4 .wrap-content .box-text-1 .line {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#takematsu_about .section-4 .wrap-content .box-text-2 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 19px;
+    padding: 0 20px;
+    line-height: 35px;
+}
+
+#takematsu_about .section-4 .wrap-content .box-text-1 {
+    margin-top: 18px;
+    letter-spacing: 2.4px;
+    line-height: 43px;
+    z-index: 4;
+}
+
+#takematsu_about .section-4 .wrap-content .line.line-1 {
+    color: #00A73C;
+}
+
+#takematsu_about .section-4 .wrap-content .line.line-2 {
+    color: #0068B7;
+}
+
+#takematsu_about .section-4 .wrap-content .box-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#takematsu_about .section-4 .bg-4 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#takematsu_about .section-4 .bg-4:before {
+    content: '';
+    background-image: url(../images/takematsu-about/takematsu_about_CTA_sp@2x.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 62px;
+}
+
+#takematsu_about .section-4 .box-btn {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#takematsu_about .section-4 .btn {
+    padding: 9px 11px;
+    color: #ffffff;
+    border-radius: 80px;
+    border: 4px solid #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    width: 170px;
+    justify-content: space-between;
+}
+
+#takematsu_about .section-4 .btn svg {
+    width: 40px;
+    height: 40px;
+}
+
+#takematsu_about .section-4 .btn-left {
+    background: #00A73C;
+
+}
+
+#takematsu_about .section-4 .btn-right {
+    background: #0068B7;
+
+}
+
+#takematsu_about .only-mb {
+    display: block;
+}
+
+#takematsu_about .only-pc {
+    display: none;
+}
+
+#takematsu_about .message .img-box {
+    width: 100%;
+    padding-right: 12px;
+}
+
+#takematsu_about .message .text-box {
+    width: calc(100%);
+}
+
+#takematsu_about .message .text-box .text-box-inner {
+    padding-left: 12px;
+    padding-top: 18px;
+    padding-right: 12px;
+}
+
+#takematsu_about .message .text-box .sub-t {
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1a1c;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 4;
+}
+
+#takematsu_about .message .text-box .sub-t .en {
+    font-size: 64px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a8daff;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+#takematsu_about .message .text-box .ttl {
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0068b7;
+}
+
+#takematsu_about .message .text-box .text {
+    margin: 13px 0 12px 0;
+}
+
+#takematsu_about .message .mss {
+    font-weight: 700;
+    text-align: right;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#takematsu_about .fl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.takematsu_about .message {
+    margin-top: 80px !important;
+}
+
+#takematsu_about .message .mbg {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -2;
+    display: none;
+}
+
+
+@media print, screen and (min-width: 767px) {
+    #takematsu_about .only-pc {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #takematsu_about .only-mb {
+        display: none;
+    }
+
+    #takematsu_about .top-bar {
+        height: 120px;
+    }
+
+    #takematsu_about .sp-br {
+        display: none;
+    }
+
+    #takematsu_about .pc-br {
+        display: inline;
+    }
+
+    #takematsu_about .box-movie .btn-item {
+        height: fit-content;
+    }
+
+    #takematsu_about .section-1 .title-page {
+        font-size: 32px;
+        margin-top: 78px;
+    }
+
+    #takematsu_about .section-1 .title-page:after {
+        width: 80px;
+        top: 72px;
+    }
+
+    #takematsu_about .section-1 .wrap-content .logo-desc {
+        width: 80.8%;
+        margin: 0 auto;
+        padding-top: 55px;
+        left: 0;
+        top: 0;
+    }
+
+    #takematsu_about .section-1 .wrap-content .box-text-1 {
+        font-size: 16px;
+        padding: 0 236px;
+        padding-top: 54px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    #takematsu_about .section-1 .wrap-content .box-text-2 {
+        font-size: 24px;
+        line-height: 43px;
+        padding-top: 33px;
+        text-align: center;
+    }
+
+    #takematsu_about .section-1 .box-image {
+        padding-top: 58px;
+        text-align: center;
+    }
+
+    #takematsu_about .section-1 .wrap-content {
+        background-image: url(../images/takematsu-about/takematsu_about_bg_pc.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: bottom;
+    }
+
+    #takematsu_about .box-movie .title .icon img {
+        top: -8px;
+    }
+
+    #takematsu_about .box-movie .title .icon {
+        width: 5.8%;
+    }
+
+    #takematsu_about .section-2 .box-movie .title {
+        font-size: 24px;
+    }
+
+    #takematsu_about .box-movie {
+        padding-top: 78px;
+    }
+
+    #takematsu_about .bg-movie-top {
+        text-align: center;
+        margin-top: 27px;
+        z-index: 2;
+    }
+
+    #takematsu_about .box-movie .box-link {
+        padding-top: 80px;
+    }
+
+    #takematsu_about .box-movie .btn-item {
+        font-size: 16px;
+        margin-bottom: 0 !important;
+        padding: 6px 30px !important;
+    }
+
+    #takematsu_about .box-movie .box-link .btn {
+        justify-content: space-between;
+        max-width: 876px;
+        margin: 0 auto;
+        padding-top: 28px;
+        margin-bottom: 160px;
+    }
+
+    #takematsu_about .box-movie .btn-item:nth-child(1) span {
+        left: 5px;
+        top: -2px;
+    }
+
+    #takematsu_about .box-movie .btn-item:nth-child(2) span {
+        top: -2px;
+        left: 8px;
+    }
+
+    #takematsu_about .box-movie .btn-item:nth-child(3) span {
+        top: -2px;
+        left: 7px;
+    }
+
+    #takematsu_about .box-movie .btn-item:nth-child(3) {
+        top: 0px;
+        left: -1px;
+    }
+
+    #takematsu_about .box-movie .btn-item:nth-child(2) {
+        padding: 6px 20px;
+        left: -3px;
+    }
+
+    #takematsu_about .image-box.item-image .title:after {
+        top: 44%;
+        right: 0px;
+    }
+
+    #takematsu_about .section-3 .item-image .box-text {
+        padding-top: 16px;
+    }
+
+    #takematsu_about .bg-movie {
+        background-image: url(../images/takematsu-about/takematsu_about__Movie.png);
+        background-repeat: no-repeat;
+        display: block;
+        background-size: 100%;
+        background-position: bottom;
+        padding-bottom: 80px !important;
+    }
+
+    #takematsu_about .box-movie .btn-item img {
+        width: 24px;
+    }
+
+    #takematsu_about .image-box.item-image .title {
+        font-size: 24px;
+    }
+
+    #takematsu_about .section-3 .item-image .box-text-1 {
+        font-size: 40px;
+    }
+
+    #takematsu_about .section-3 .inner {
+        padding: 0;
+    }
+
+    #takematsu_about .section-3 .image-box-1 .wrap-content {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        /*align-items: center;*/
+        margin-top: 41px;
+    }
+
+    #takematsu_about .section-3 .image-box-1 .box-text-content {
+        font-size: 16px !important;
+        padding-right: 5px;
+        /* top: -8px; */
+        line-height: 32px;
+        top: 3px;
+    }
+
+    #takematsu_about .box-text.box-text-content.text__2 {
+        font-size: 16px !important;
+        line-height: 32px;
+        padding-top: 14px;
+        z-index: 2;
+    }
+
+    #takematsu_about .btn-green-big.btn-big .btn-left {
+        left: 15px;
+        letter-spacing: -0.3px;
+        top: 1px;
+        font-size: 18px;
+    }
+
+    #takematsu_about .btn-left:hover {
+        background-size: 100% 100%;
+        color: #fff;
+        opacity: 1 !important;
+    }
+
+    #takematsu_about .section-3 .btn-big .icon svg {
+        width: 34px;
+        height: 34px;
+        margin-right: -5px;
+        top: 4px;
+    }
+
+    #takematsu_about .section-3 .title.title-icon {
+        font-size: 20px;
+    }
+
+    #takematsu_about .section-3 .title-big {
+        font-size: 32px;
+    }
+
+    #takematsu_about .section-3 .btn-big {
+        border-radius: 46px;
+        max-width: 414px;
+    }
+
+    #takematsu_about .section-3 .image-box-1 .image-desc {
+        max-width: 560px;
+        width: 50%;
+    }
+
+    #takematsu_about .section-3 .image-box-1 .image-box-1.box-text {
+        width: 50%;
+        margin-top: 91px;
+    }
+
+    #takematsu_about .section-3 .title-icon:before {
+        width: 32px;
+        height: 32px;
+        left: -48px;
+        top: 9px;
+    }
+
+    #takematsu_about .section-3 .title.title-icon {
+        margin-left: 48px;
+        margin-bottom: 14px;
+        padding-top: 12px;
+    }
+
+    #takematsu_about .image-box-1 .image-box-1 .title-big {
+        line-height: 52px;
+        padding-right: 156px;
+        padding-top: 7px;
+    }
+
+    #takematsu_about .section-3 .image-box-2 .wrap-content {
+        display: flex;
+        justify-content: space-between;
+        /*align-items: center;*/
+        margin-bottom: 160px;
+    }
+
+    #takematsu_about .image-box-2 .wrap-content .image-desc {
+        width: 50%;
+        margin-top: 160px;
+    }
+
+    #takematsu_about .section-3 .btn-big {
+        border: 2px solid #00A73C;
+        padding: 10px 19px;
+    }
+
+    #takematsu_about .section-3 .title-icon-2 {
+        margin-left: 48px !important;
+        margin-bottom: 14px;
+        padding-top: 11px;
+    }
+
+    #takematsu_about .section-3 .image-box-2 .title-big {
+        line-height: 52px;
+        padding-top: 13px;
+        top: -6px;
+    }
+
+    #takematsu_about .section-3 .wrap-image-desc {
+        margin-top: 80px !important;
+        max-width: 100%;
+        margin-left: auto;
+        padding-top: 82px;
+    }
+
+    #takematsu_about .section-4 .bg-4 {
+        max-width: 100%;
+    }
+
+    #takematsu_about .section-4 .bg-4:before {
+        content: '';
+        background-image: url(../images/takematsu-about/takematsu_about_Img.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 204px;
+    }
+
+    #takematsu_about .section-4 .bg-4 .inner {
+        max-width: 100%;
+    }
+
+    .image-box-2 .btn-blue-big {
+        border: 2px solid #0068B7 !important;
+        padding: 10px 19px;
+    }
+
+    #takematsu_about .section-3 .image-box-2 .btn-big {
+        border: 2px solid #00A73C;
+        padding: 10px 19px;
+        margin-top: 35px;
+        max-width: 434px;
+    }
+
+    #takematsu_about .section-3 .image-box-2 .btn-big .btn-left {
+        left: 17px;
+        font-size: 18px;
+        letter-spacing: -0.3px;
+    }
+
+    #takematsu_about .section-3 .btn-green-big {
+
+    }
+
+    #takematsu_about .section-3 .btn-green-big {
+        margin-top: 40px;
+        background-image: linear-gradient(#00a73c, #00a73c);
+        background-color: #fff;
+        background-size: 0% 100%;
+        background-position: 50% 50%;
+        transition: background-size .3s, color .3s;
+        background-repeat: no-repeat;
+    }
+
+    #takematsu_about .section-3 .btn-green-big:hover {
+        background-size: 100% 100%;
+        color: #fff;
+        opacity: 1 !important;
+    }
+
+    #takematsu_about .section-3 .btn-blue-big {
+        margin-top: 40px;
+        background-image: linear-gradient(#0068B7, #0068B7);
+        background-color: #fff;
+        background-size: 0% 100%;
+        background-position: 50% 50%;
+        transition: background-size .3s, color .3s;
+        background-repeat: no-repeat;
+    }
+
+    #takematsu_about .section-3 .btn-blue-big:hover {
+        background-size: 100% 100%;
+        color: #fff;
+        opacity: 1 !important;
+    }
+
+    #takematsu_about .section-3 .btn-big:hover .icon circle#Ellipse_2281 {
+        fill: white;
+    }
+
+    #takematsu_about .section-3 .btn-green-big:hover .icon path#icon_arrow-2 {
+        fill: #00a73c;
+    }
+
+    #takematsu_about .section-3 .btn-blue-big:hover .icon path#icon_arrow-2 {
+        fill: #0068B7;
+    }
+
+    #takematsu_about .section-3 .image-box-2 .wrap-box-text {
+        font-size: 16px !important;
+        width: 50%;
+        padding-top: 196px;
+    }
+
+    #takematsu_about .fl {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #takematsu_about .inner {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    #takematsu_about .message .img-box {
+        width: 388px;
+        padding-right: 0px;
+        z-index: 1;
+    }
+
+    #takematsu_about .message .text-box {
+        width: calc(100% - 388px);
+    }
+
+    #takematsu_about .message .text-box .text-box-inner {
+        padding-left: 32px;
+        padding-top: 38px;
+        padding-right: 0;
+        z-index: 3;
+    }
+
+    #takematsu_about .message .text-box .sub-t {
+
+        font-size: 20px;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.8;
+        letter-spacing: normal;
+        text-align: left;
+        color: #1a1a1c;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    #takematsu_about .message .text-box .sub-t .en {
+        font-size: 64px;
+        line-height: 0.6;
+        letter-spacing: normal;
+        text-align: left;
+        color: #a8daff;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        z-index: -1;
+        font-family: "franklin-gothic-atf", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    #takematsu_about .message .text-box .ttl {
+        font-size: 32px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.6;
+        letter-spacing: normal;
+        text-align: left;
+        color: #0068b7;
+    }
+
+    #takematsu_about .message .text-box .text {
+        margin: 26px 0 28px 0;
+    }
+
+    #takematsu_about p {
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        color: #2c2c2c;
+    }
+
+    #takematsu_about .message .mss {
+        font-weight: 700;
+        text-align: left;
+        font-size: 16px;
+        line-height: 2;
+    }
+
+    #takematsu_about .message .mbg {
+        position: absolute;
+        height: 100%;
+        left: 0;
+        bottom: 0;
+        z-index: 0;
+        display: block;
+    }
+
+    #takematsu_about .message {
+        position: relative;
+        top: 1px;
+    }
+
+    #takematsu_about .section-4 .wrap-content .logo {
+        width: 8.1%;
+        padding-top: 60px !important;
+    }
+
+    #takematsu_about .section-4 .wrap-content .box-text-1 .line {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1.8;
+    }
+
+    #takematsu_about .section-4 .wrap-content .box-text-2 {
+        font-size: 16px;
+        line-height: 50px;
+        z-index: 3;
+    }
+
+    #takematsu_about .section-4 .wrap-content .box-btn {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        max-width: 856px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    #takematsu_about .section-4 .btn {
+        width: 388px;
+        font-size: 18px;
+    }
+
+    .section-3 .bg-section-3 {
+        background-image: url(../images/takematsu-about/takematsu_about_Message_Bg_About_pc.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-y: 422px;
+    }
+
+    #takematsu_about .section-4 .wrap-content {
+        padding-bottom: 210px;
+    }
+
+    #takematsu_about .section-4 .wrap-content .box-text-1 {
+        letter-spacing: 7.4px;
+    }
+
+    #takematsu_about .section-4 .btn {
+        border: 2px solid #ffffff;
+        padding-left: 40px;
+        line-height: 3.5;
+        border-radius: 40px;
+    }
+
+    #takematsu_about .section-4 .btn span {
+        line-height: 1;
+        margin-right: 10px;
+    }
+
+    #takematsu_about .box-btn .btn {
+        position: relative;
+        /*background-image: linear-gradient(#00a73c, #00a73c);*/
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 0% 100%;
+        transition: background-size .3s, color .3s;
+        overflow: hidden;
+        z-index: 0;
+    }
+
+    #takematsu_about .box-btn .btn-left-footer:hover {
+        color: #00a73c;
+        border: 2px solid #00a73c;
+        background-size: unset;
+    }
+
+    #takematsu_about .box-btn .btn-right-footer:hover {
+        color: #0068B7;
+        border: 2px solid #0068B7;
+        background-size: unset;
+    }
+
+    #takematsu_about .box-btn .btn:hover:after {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    #takematsu_about .box-btn .btn-left-footer:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 500px;
+        height: 500px;
+        background-color: #fff;
+        border-color: transparent;
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 1;
+        z-index: -1;
+        transition: .4s;
+        border-radius: 100%;
+    }
+
+    #takematsu_about .box-btn .btn-right-footer:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 500px;
+        height: 500px;
+        background-color: #fff;
+        border-color: transparent;
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 1;
+        z-index: -1;
+        transition: .4s;
+        border-radius: 100%;
+    }
+
+    #takematsu_about .box-btn .btn-left-footer:hover circle#Ellipse_2281 {
+        fill: #00a73c;
+    }
+
+    #takematsu_about .box-btn .btn-right-footer:hover circle#Ellipse_2281 {
+        fill: #0068B7;
+    }
+}
+
+@media print, screen and (min-width: 768px) {
+    #takematsu_about .section-3 .inner {
+        padding: 0 12px;
+    }
+}
+
+#takematsu_about .text-blue {
+    color: #0068b7;
+}
+
+#takematsu_about .btn-item a {
+    color: #ffffff;
+}
+
+#takematsu_about a {
+    transition: opacity .3s;
+}
+
+#takematsu_about .btn-item:hover {
+    opacity: .5;
+}

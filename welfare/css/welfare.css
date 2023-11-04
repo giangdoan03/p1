@@ -1,0 +1,1051 @@
+/*------------------------------------------------------------
+common
+------------------------------------------------------------*/
+body {
+    font-family: 'Noto Sans JP', 'Century Gothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 游ゴシック体, YuGothic, "Yu Gothic Medium", 游ゴシック, 'Yu Gothic', メイリオ, Meiryo, sans-serif;
+}
+
+#welfare {
+    font-size: 13px;
+    font-weight: 500;
+    color: #000;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+}
+
+#welfare * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#welfare a {
+    transition: opacity .3s;
+}
+
+#welfare a[href^="tel:"] {
+    display: inline-block;
+    transition: none;
+}
+
+#welfare a:hover {
+    text-decoration: none;
+}
+
+#welfare a:focus-visible {
+    outline: none;
+}
+
+#welfare img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+#welfare .js-fadein {
+    opacity: 0;
+    transform: translate(0, 20px);
+    transition-property: opacity, transform;
+    transition-duration: 1s;
+}
+
+#welfare .scroll-in {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+#welfare .pc-br {
+    display: none;
+}
+
+#welfare .sp-br {
+    display: inline;
+}
+
+#welfare .inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+#welfare .only-mb {
+    display: block;
+}
+
+#welfare .only-pc {
+    display: none;
+}
+
+#welfare .top-bar {
+    height: 110px;
+}
+
+#welfare .section-1 h2.title-page {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}
+
+#welfare .section-1 h2.title-page:after {
+    content: '';
+    display: block;
+    border: 2px solid #00A73C;
+    width: 62px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -11px;
+}
+
+#welfare .section-1 .big-title {
+    font-size: 24px;
+    color: #0068B7;
+    font-weight: 700;
+    margin-bottom: 13px;
+    line-height: 38px;
+    padding: 0 67px;
+    margin-top: 38px;
+    position: relative;
+}
+
+#welfare .section-1 .big-title:before {
+    content: '';
+    background-image: url(../images/welfare/welfare_cccent_left.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -60px;
+    right: 45px;
+    width: 23px;
+    height: 100%;
+}
+
+#welfare .section-1 .big-title:after {
+    content: '';
+    background-image: url(../images/welfare/welfare_accent_right.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -2px;
+    left: 33px;
+    width: 23px;
+    height: 100%;
+}
+
+#welfare .section-1 .btn {
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 24px;
+    padding-right: 16px;
+    border-radius: 12px;
+}
+
+#welfare .section-1 .btn.btn-left {
+    background: #EDFEEE;
+    color: #00A73C;
+    margin-bottom: 15px;
+}
+
+#welfare .section-1 .btn.btn-right {
+    background: #EDF8FE;
+    color: #0068B7;
+}
+
+#welfare .section-1 .block-button {
+    margin-top: 33px;
+}
+
+#welfare .section-1 .block-button .btn p {
+    padding-top: 6px;
+}
+
+#welfare .section-1 .text-description {
+    letter-spacing: 1px;
+    line-height: 25.2px;
+}
+
+#welfare .section-1 .big-title .line-2 {
+    padding-left: 13px;
+}
+
+#welfare .section-1 .block-introduce .introduce-left {
+    display: none;
+}
+
+#welfare .section-1 .block-introduce .introduce-right {
+    margin-top: 138px;
+    position: relative;
+    z-index: 0;
+}
+
+#welfare .section-1 .block-introduce .introduce-right:before {
+    content: '';
+    background-image: url(../images/welfare/welfare_Support1_Bg_sp.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 252px;
+    height: 316px;
+    display: block;
+    position: absolute;
+    top: -58px;
+    right: 0;
+    z-index: -1;
+}
+
+#welfare .section-1 .block-introduce .introduce-right .title-primary {
+    font-size: 24px;
+    color: #00A73C;
+    font-weight: 700;
+}
+
+#welfare .section-1 .block-introduce .introduce-right .title-secondary {
+    font-size: 20px;
+    color: #00A73C;
+    font-weight: 700;
+    position: relative;
+    margin-top: 12px;
+    padding-left: 12px;
+}
+
+#welfare .section-1 .block-introduce .introduce-right .title-secondary:after {
+    content: '';
+    background-image: url(../images/welfare/welfare_accent.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -7px;
+    left: 0;
+    width: 23px;
+    height: 100%;
+    position: absolute;
+}
+
+#welfare .section-1 .block-introduce .introduce-right .text-description {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 11px;
+    letter-spacing: 0;
+    padding-right: 5px;
+}
+
+#welfare .section-1 .block-introduce .introduce-right .item {
+    border: 3px solid #00A73C;
+    display: inline-block;
+    padding: 6px 18px;
+    border-radius: 24px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 6px;
+}
+
+#welfare .section-1 .block-introduce .introduce-right .block-tag {
+    padding-top: 17px;
+}
+
+#welfare .section-2 .introduce-right .title-primary {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#welfare .section-1 .block-testimonial .customer-name span:nth-child(1) {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#welfare .section-1 .block-testimonial .customer-name span:nth-child(2) {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 9px;
+}
+
+#welfare .section-1 .block-testimonial .customer-name {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 6px;
+    margin-bottom: 5px;
+}
+
+#welfare .section-1 .block-testimonial .text-summary {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#welfare .section-1 .block-introduce .block-testimonial .text-description {
+    margin-top: 4px;
+    padding-right: 2px;
+}
+
+#welfare .section-1 .block-testimonial {
+    margin-top: 44px;
+    position: relative;
+}
+
+#welfare .section-1 .block-testimonial {
+    background-image: url(../images/welfare/welfare_bg_mb3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 26px;
+    padding: 19px 32px 20px 20px;
+    border-radius: 12px 0 0 12px;
+    color: #ffffff;
+}
+
+#welfare .section-1 .block-introduce {
+    padding-left: 12px;
+}
+
+/*SECTION-2*/
+
+#welfare .section-2 .introduce-right {
+    display: none;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .title-primary {
+    font-size: 24px;
+    color: #0068B7;
+    font-weight: 700;
+    padding-right: 10px;
+    z-index: 2;
+    position: relative;
+}
+
+#welfare .section-2 .block-introduce .introduce-right:before {
+    content: '';
+    background-image: url(../images/welfare/welfare_Support1_Bg_sp.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 252px;
+    height: 316px;
+    display: block;
+    position: absolute;
+    top: -58px;
+    right: 0;
+    z-index: -1;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item .title-secondary {
+    font-size: 20px;
+    color: #0068B7;
+    font-weight: 700;
+    position: relative;
+    margin-top: 12px;
+    padding-left: 12px;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item:nth-child(1) .title-secondary {
+    margin-top: 11px;
+    padding-left: 12px;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .title-secondary:after {
+    top: -14px;
+    width: 49px;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item-1 .text-description {
+    margin-top: 12px;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item:nth-child(2) .title-secondary {
+
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item:nth-child(3) .title-secondary {
+    padding-right: 12px;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item-1 .title-secondary {
+    margin-bottom: 11px;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item-1 .block-tag {
+    margin-top: 16px;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item-1 .text-description {
+    letter-spacing: 1px;
+    line-height: 25.3px;
+    padding-right: 25px;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item-1 .block-testimonial .text-description {
+    margin-top: 6.5px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    padding-right: 10px;
+}
+
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item-2 {
+    margin-top: 154px !important;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item-2 .text-description {
+    padding-right: 24px;
+    margin-top: 12px;
+    letter-spacing: 1px;
+    line-height: 25.3px;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item-2 .block-testimonial .text-description {
+    margin-top: 11px;
+    letter-spacing: 0px;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item-2 .block-tag {
+    margin-top: 21px;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item-3 {
+    margin-top: 152px;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .item {
+    border: 3px solid #0068B7;
+    display: inline-block;
+    padding: 6px 18px;
+    border-radius: 24px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 6px;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .title-secondary:after {
+    content: '';
+    background-image: url(../images/welfare/welfare_accent_blur.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -7px;
+    left: 0;
+    width: 23px;
+    height: 100%;
+    position: absolute;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item-3 .title-secondary {
+    margin-bottom: 12px;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item-3 .text-description {
+    letter-spacing: 1px;
+    padding-right: 14px;
+    line-height: 25.1px;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item-3 .block-tag {
+    margin-top: 17px;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item {
+    position: relative;
+    z-index: 0;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item-1:before {
+    content: '';
+    background-image: url(../images/welfare/welfare_Support2_Bg_sp.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 252px;
+    height: 316px;
+    display: block;
+    position: absolute;
+    top: -63px;
+    right: 0;
+    z-index: -2;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item-2:before {
+    content: '';
+    background-image: url(../images/welfare/welfare_Support3_Bg_sp.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 252px;
+    height: 316px;
+    display: block;
+    position: absolute;
+    top: -72px;
+    right: 0;
+    z-index: -1;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left .bl-item-3:before {
+    content: '';
+    background-image: url(../images/welfare/welfare_Support4_Bg_sp.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 252px;
+    height: 316px;
+    display: block;
+    position: absolute;
+    top: -72px;
+    right: 0;
+    z-index: -1;
+}
+
+#welfare .section-2 .block-introduce-fixed .block-testimonial .text-summary {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#welfare .section-2 .block-introduce-fixed .block-testimonial .text-description {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#welfare .section-2 .block-introduce-fixed .introduce-left {
+    padding-left: 12px;
+    margin-top: 143px;
+}
+
+#welfare .section-2 .block-introduce-fixed .bl-item-1 .block-testimonial {
+    background-image: url(../images/welfare/welfare_bg_mb1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 26px;
+    padding: 19px 28px 20px 20px;
+    border-radius: 12px 0 0 12px;
+    color: #ffffff;
+}
+
+#welfare .section-2 .block-introduce-fixed .bl-item-2 .block-testimonial {
+    background-image: url(../images/welfare/welfare_bg_mb2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 26px;
+    padding: 19px 32px 20px 20px;
+    border-radius: 12px 0 0 12px;
+    color: #ffffff;
+}
+
+
+/*FOOTER*/
+#welfare .section-3 .wrap-content .logo {
+    width: 40%;
+    margin: 0 auto;
+}
+
+#welfare .section-3 .wrap-content {
+    text-align: center;
+    margin-top: 74px;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+#welfare .section-3 .wrap-content .box-text-1 {
+    margin-top: 18px;
+    letter-spacing: 2.4px;
+    line-height: 43px;
+    z-index: 4;
+}
+
+#welfare .section-3 .wrap-content .box-text-1 .line {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#welfare .text-blue {
+    color: #0068b7;
+}
+
+#welfare .section-3 .wrap-content .line.line-1 {
+    color: #00A73C;
+}
+
+#welfare .section-3 .wrap-content .box-text-2 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 19px;
+    padding: 0 20px;
+    line-height: 35px;
+}
+
+#welfare .section-3 .wrap-content .box-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+
+#welfare .section-3 .btn {
+    padding: 9px 11px;
+    color: #ffffff;
+    border-radius: 80px;
+    border: 2px solid #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    width: 170px;
+    justify-content: space-between;
+}
+
+#welfare .section-3 .btn-left {
+    background: #00A73C;
+}
+
+#welfare .section-3 .bg-contact {
+    position: relative;
+}
+
+#welfare .section-3 .bg-contact:before {
+    content: '';
+    background-image: url(../images/welfare/welfare_bg_sp.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 58px;
+    z-index: 0;
+}
+
+#welfare .section-3 .box-btn span {
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    background-color: #F4920C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+#welfare .section-3 .box-btn .btn span svg {
+    width: 13px;
+    height: auto;
+}
+
+#welfare .section-3 .btn-right {
+    background: #0068B7;
+}
+#welfare .block-introduce-fixed .bg-block-introduce {
+    display: none;
+}
+
+@media print, screen and (min-width: 768px) {
+
+    #welfare .sp-br {
+        display: none;
+    }
+
+    #welfare .pc-br {
+        display: inline;
+    }
+
+    #welfare .only-mb {
+        display: none;
+    }
+
+    #welfare .only-pc {
+        display: block;
+    }
+
+    #welfare .big-title .line-1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #welfare .section-1 h2.title-page {
+        font-size: 32px;
+    }
+
+    #welfare .section-1 .big-title {
+        font-size: 48px;
+        margin-top: 73px;
+        line-height: 76px;
+        margin-bottom: 10px;
+    }
+
+    #welfare .top-bar {
+        height: 199px;
+    }
+
+    #welfare .section-1 h2.title-page:after {
+        border: 2px solid #0068B7;
+        width: 75px;
+        bottom: -24px;
+    }
+
+    #welfare .section-1 .big-title:before {
+        bottom: -39px;
+        right: 115px;
+        width: 49px;
+    }
+
+    #welfare .section-1 .big-title:after {
+        top: -11px;
+        left: 114px;
+        width: 49px;
+    }
+
+    #welfare .section-1 .text-description-pc {
+        font-size: 16px;
+        font-weight: 500;
+        padding-left: 160px;
+        padding-right: 150px;
+        letter-spacing: 0px;
+        line-height: 29.7px;
+
+    }
+
+    #welfare .section-1 .block-button {
+        margin-top: 48px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #welfare .section-1 .btn.btn-left {
+        font-size: 18px;
+        margin-bottom: 0;
+        margin-top: 3px;
+        padding-right: 19px;
+        line-height: 31px;
+        padding-bottom: 0;
+    }
+
+    #welfare .section-1 .btn.btn-left p {
+        margin-top: -12px;
+    }
+
+    #welfare .section-1 .btn.btn-right {
+        font-size: 18px;
+        padding-top: 19px;
+        padding-right: 29px;
+        line-height: 32px;
+        padding-bottom: 0;
+    }
+
+    #welfare .section-1 .btn {
+        flex-direction: column;
+        min-width: 560px;
+    }
+
+    #welfare .section-1 .btn .btn-text {
+        text-align: center;
+    }
+
+    #welfare .inner {
+        width: 100%;
+        max-width: 1224px;
+        margin: 0 auto;
+        padding: 0 12px;
+    }
+
+    #welfare .section-1 .block-introduce .introduce-left {
+        display: block;
+        width: 50%;
+        padding-top: 143px;
+        position: relative;
+        top: 0px;
+        left: -7px;
+    }
+
+    #welfare .section-1 .block-introduce .wrap-content {
+        display: flex;
+    }
+
+    #welfare .section-1 .block-introduce .introduce-right .title-primary {
+        font-size: 48px;
+    }
+
+    #welfare .section-1 .block-introduce .introduce-right {
+        width: 50%;
+        padding-left: 35px;
+        margin-top: 89px;
+    }
+
+    #welfare .section-1 .block-introduce .introduce-right:before {
+        display: none;
+    }
+
+    #welfare .section-1 .block-introduce .introduce-right .title-secondary {
+        font-size: 32px;
+        margin-top: 30px;
+        padding-left: 23px;
+    }
+
+    #welfare .section-1 .block-introduce .introduce-right .title-secondary:after {
+        top: -15px;
+        left: 0;
+        width: 48px;
+    }
+
+    #welfare .section-1 .block-introduce .introduce-right .text-description {
+        font-size: 16px;
+        margin-top: 20.3px;
+        max-width: 570px;
+        line-height: 1.9;
+        letter-spacing: -0.1px;
+    }
+
+    #welfare .section-1 .block-introduce .introduce-right .item {
+        padding: 6px 22px;
+        margin-bottom: 14px;
+        font-size: 16px;
+        margin-right: 16px;
+    }
+
+    #welfare .section-1 .block-introduce .introduce-right .block-tag {
+        padding-top: 22px;
+        max-width: 474px;
+    }
+
+    #welfare .section-1 .block-testimonial {
+        background-image: url(../images/welfare/welfare_Support1_Bg_pc.png);
+        padding-left: 40px;
+        padding-top: 32px;
+        border-radius: 24px 0 0 24px;
+        padding-bottom: 32px;
+    }
+
+    #welfare .section-1 .block-testimonial .customer-name {
+        font-size: 16px;
+        margin-top: -4px;
+        padding-bottom: 11px;
+    }
+
+    #welfare .section-1 .customer-name .only-pc {
+        display: inline-block;
+    }
+
+    #welfare .section-1 .block-testimonial .customer-name span:nth-child(1) {
+        font-size: 20px;
+    }
+
+    #welfare .section-1 .block-testimonial .customer-name span:nth-child(2) {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    #welfare .section-1 .block-testimonial .customer-name span:nth-child(3) {
+        font-size: 16px;
+    }
+
+    #welfare .section-1 .block-testimonial .text-summary {
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 16px;
+    }
+
+    #welfare .section-1 .block-introduce .block-testimonial .text-description {
+        max-width: 520px !important;
+        line-height: 1.8;
+        margin-top: 12.3px;
+    }
+
+    #welfare .section-2 .block-introduce-fixed .introduce-left .bl-item:before {
+        display: none;
+    }
+
+    #welfare .section-2 .introduce-right {
+        display: block;
+    }
+
+    #welfare .section-2 .block-introduce-fixed .wrap-content {
+        display: flex;
+    }
+
+    #welfare .section-1 .block-introduce {
+        position: relative;
+        z-index: 1;
+    }
+
+    #welfare .section-1 .block-introduce:before {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 594px;
+        top: 250px;
+        max-width: calc((100% - ((100% - 1200px) / 2)) + 120px);
+        width: 100%;
+        left: 0px;
+        background-color: rgb(237, 254, 238);
+        border-radius: 0px 165px 24px 0px;
+        z-index: -1;
+    }
+
+    #welfare .section-1 {
+        background-image: url(../images/welfare/welfare_bg_top.png);
+        background-position: center top 187px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-y: -17px;
+    }
+
+    #welfare .section-2 .block-introduce-fixed .introduce-left {
+        width: 50%;
+        padding-left: 0;
+        padding-right: 40px;
+    }
+
+    #welfare .section-2 .introduce-right {
+        width: 50%;
+        max-width: 737px;
+        margin-left: 37px;
+        padding-top: 275px;
+    }
+
+    #welfare .section-2 .block-introduce-fixed .introduce-left .title-primary {
+        font-size: 48px;
+    }
+
+    #welfare .section-2 .block-introduce-fixed .introduce-left .bl-item .title-secondary {
+        font-size: 32px;
+        margin-top: 24px !important;
+        padding-left: 24px !important;
+    }
+
+    #welfare .section-2 .block-introduce-fixed .introduce-left .bl-item .text-description {
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 30px;
+        padding-right: 0;
+        margin-top: 19px;
+    }
+    #welfare .section-2 .block-introduce-fixed .introduce-left .title-secondary:after {
+        top: -14px;
+        width: 49px;
+    }
+    #welfare .section-2 .block-introduce-fixed .introduce-left .item {
+        font-size: 16px;
+    }
+    #welfare .section-2 .block-introduce-fixed .block-testimonial .text-summary {
+        font-size: 20px;
+    }
+    #welfare .section-2 .block-introduce-fixed .introduce-left .bl-item .block-testimonial .text-description {
+        font-size: 32px;
+        padding-top: 19px;
+    }
+    #welfare .section-2 .block-introduce-fixed .introduce-left .bl-item .block-info {
+        max-width: 560px;
+        margin-left: auto;
+    }
+    #welfare .section-2 .block-introduce-fixed .bl-item-1 .block-testimonial {
+        background-image: url(../images/welfare/welfare_Support2_Bg_pc.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 26px;
+        padding: 19px 28px 20px 20px;
+        border-radius: 12px 0 0 12px;
+        color: #ffffff;
+    }
+    #welfare .section-2 .block-introduce-fixed .bl-item-1 .block-testimonial {
+        border-radius: 24px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+    }
+    #welfare .section-2 .block-introduce-fixed .bl-item-1 .block-testimonial-content {
+        max-width: 532px;
+        margin-left: auto;
+        padding-top: 19px;
+        padding-right: 3px;
+    }
+    #welfare .section-2 .block-introduce-fixed .bl-item-1 .block-testimonial-content .text-summary {
+        line-height: 34px;
+    }
+    #welfare .section-2 .block-introduce-fixed .bl-item-1 .block-testimonial-content .text-description {
+        padding-top: 15px;
+        line-height: 43px;
+    }
+    #welfare .section-2 .block-introduce-fixed .bl-item-1 .block-info{
+        padding-top: 127px;
+    }
+    #welfare .section-2 .block-introduce-fixed .bl-item-1 .block-info .title-primary {
+        padding-right: 29px;
+    }
+    #welfare .section-2 .block-introduce-fixed .introduce-left .bl-item-1 .block-tag {
+        margin-top: 27px;
+    }
+    #welfare .section-2 .block-introduce-fixed .bl-item-1 .block-info .block-tag .item{
+        padding: 6px 22px;
+        margin-bottom: 13px;
+        margin-right: 16px;
+    }
+    #welfare .section-2 .block-introduce-fixed .introduce-left .bl-item-1 .block-testimonial {
+        margin-top: 27px;
+        padding: 19px 28px 50px 20px;
+       background-size: cover;
+    }
+    #welfare .section-2 .block-introduce-fixed .bl-item-2 .block-testimonial {
+        background-image: url(../images/welfare/welfare_2pc_2x.png);
+    }
+    #welfare .section-2 .block-introduce-fixed .bl-item-2 .block-testimonial-content {
+        max-width: 573px;
+        margin-left: auto;
+    }
+    #welfare .section-3 .bg-contact:before {
+        background-image: url(../images/welfare/welfare_bg_pc@2x.png);
+    }
+    #welfare .section-2 .block-introduce-fixed .introduce-right {
+        position: relative;
+    }
+    #welfare .section-2 .block-introduce-fixed .introduce-right:before {
+        content: '';
+        background-image: url(../images/welfare/welfare_mark_trim.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: inline-block;
+        width: 109px;
+        height: 100%;
+        position: absolute;
+        top: 272px;
+        left: 3px;
+        z-index: 0;
+    }
+    #welfare .section-2 .block-introduce-fixed .introduce-right:after {
+        content: '';
+        background-image: url(../images/welfare/welfare_mark_trim.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: inline-block;
+        width: 212px;
+        height: 212px;
+        position: absolute;
+        top: 883px;
+        right: -78px;
+        z-index: 0;
+        rotate: 195deg;
+    }
+    #welfare .section-2 .block-introduce-fixed .introduce-right:before {
+        content: '';
+        background-image: url(../images/welfare/welfare_mark_trim.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: inline-block;
+        width: 109px;
+        height: 100%;
+        position: absolute;
+        bottom: 272px;
+        right: 3px;
+        z-index: 0;
+    }
+    #welfare .block-introduce-fixed .bg-block-introduce {
+        display: block;
+    }
+    #welfare .block-introduce-fixed {
+        position: relative;
+    }
+    #welfare .block-introduce-fixed .bg-block-introduce {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/welfare/welfare_bg.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        top: 160px;
+        left: 0;
+    }
+}
