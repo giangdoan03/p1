@@ -20,13 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a089fa2f-5557-4e44-a3dc-116f4ee46913" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/Intro_Logo_About_pc@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/Message_Img3_About_pc@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/Message_Img3_About_sp@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takematsu_about/images/takematsu_about/mbg@2x.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/takematsu_about/css/takematsu_about.css" beforeDir="false" afterPath="$PROJECT_DIR$/takematsu_about/css/takematsu_about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/takematsu_about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/takematsu_about/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +61,8 @@
       <workItem from="1698197451097" duration="10605000" />
       <workItem from="1698302973465" duration="11728000" />
       <workItem from="1698369027196" duration="28322000" />
-      <workItem from="1698419566974" duration="9375000" />
+      <workItem from="1698419566974" duration="9736000" />
+      <workItem from="1698544719656" duration="209000" />
     </task>
     <servers />
   </component>
