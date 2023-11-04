@@ -727,11 +727,6 @@ body {
     #interview .section-1 .item:hover .btn-arrow {
         background-color: #fff;
     }
-    /*#interview .section-1 .item .btn-arrow {*/
-    /*    background-color: #0068B7;*/
-    /*    border-color: #0068B7;*/
-    /*    left: -4px;*/
-    /*}*/
 
     #interview .section-4 .introduce3_big_title {
         top: -13px;
@@ -783,7 +778,6 @@ body {
     }
     #interview .box-btn .btn {
         position: relative;
-        /* background-image: linear-gradient(#00a73c, #00a73c); */
         background-position: 50% 50%;
         background-repeat: no-repeat;
         background-size: 0% 100%;
