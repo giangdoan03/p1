@@ -1126,6 +1126,9 @@ body {
         width: 388px;
         font-size: 18px;
     }
+    #image {
+        display: none;
+    }
 }
 
 /* No less than 400px, no greater than 900px */

@@ -26,9 +26,11 @@ jQuery(function ($) {
 
       let scrollOffset = 800;
 
+
       $(window).scroll(function() {
 
           let scroll = $(window).scrollTop() + scrollOffset;
+
 
           if ( scroll > section1 ) {
               $('.introduce-right .box-image img').attr("src", "./images/welfare/welfare_Support3_Bg_pc_s.png");
