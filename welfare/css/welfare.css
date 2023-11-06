@@ -9,7 +9,7 @@ body {
     font-size: 13px;
     font-weight: 500;
     color: #000;
-    overflow: hidden;
+    /*overflow: hidden;*/
     background: #fff;
     position: relative;
 }
@@ -992,7 +992,7 @@ body {
     #welfare .section-2 .block-introduce-fixed .introduce-right {
         position: relative;
     }
-    #welfare .section-2 .block-introduce-fixed .introduce-right:before {
+    #welfare .section-2 .block-introduce-fixed .box-image:before {
         content: '';
         background-image: url(../images/welfare/welfare_mark_trim.png);
         background-repeat: no-repeat;
@@ -1001,11 +1001,11 @@ body {
         width: 109px;
         height: 100%;
         position: absolute;
-        top: 272px;
+        top: 0px;
         left: 3px;
         z-index: 0;
     }
-    #welfare .section-2 .block-introduce-fixed .introduce-right:after {
+    #welfare .section-2 .block-introduce-fixed .box-image:after {
         content: '';
         background-image: url(../images/welfare/welfare_mark_trim.png);
         background-repeat: no-repeat;
@@ -1014,12 +1014,12 @@ body {
         width: 212px;
         height: 212px;
         position: absolute;
-        top: 883px;
+        top: 605px;
         right: -78px;
         z-index: 0;
         rotate: 195deg;
     }
-    #welfare .section-2 .block-introduce-fixed .introduce-right:before {
+    #welfare .section-2 .block-introduce-fixed .box-image:before {
         content: '';
         background-image: url(../images/welfare/welfare_mark_trim.png);
         background-repeat: no-repeat;
@@ -1048,4 +1048,96 @@ body {
         top: 160px;
         left: 0;
     }
+
+    .image {
+        opacity: 0;
+        transition: all 0.5s ease;
+    }
+    .image.active {
+        opacity: 1;
+    }
+
+    .locker__container {
+        top: 70px;
+        position: sticky;
+        position: -webkit-sticky;
+    }
+    .image--2, .image--3{
+        margin-top: 100px !important;
+    }
+    .locker__image img {
+        width: auto;
+        height: 70vh;
+        position: absolute;
+        transition: all 1s ease;
+    }
+
+
+    #welfare .introduce-right .box-image {
+        top: 70px;
+        position: sticky;
+        transition: all 0.5s ease;
+    }
+    #welfare .introduce-right .box-image img{
+        transition: all 1s ease;
+    }
+    #welfare .section-3 .bg-contact .logo{
+        width: 13.1%;
+        padding-top: 60px !important;
+    }
+    #welfare .section-3 .bg-contact .box-text-1 {
+        margin-top: 18px;
+        letter-spacing: 2.4px;
+        line-height: 43px;
+        z-index: 4;
+    }
+    #welfare .section-3 .bg-contact .box-text-1 .line {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1.8;
+        letter-spacing: 5px;
+    }
+    #welfare .section-3 .bg-contact .box-text-2 {
+        font-size: 16px;
+        line-height: 50px;
+        z-index: 3;
+    }
+    #welfare .section-3 .bg-contact .box-btn {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        max-width: 856px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+    #welfare .box-btn .btn {
+        position: relative;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 0% 100%;
+        transition: background-size .3s, color .3s;
+        overflow: hidden;
+        z-index: 0;
+        border: 2px solid #ffffff;
+        padding-left: 40px;
+        line-height: 3.5;
+        border-radius: 40px;
+        width: 388px;
+        font-size: 18px;
+    }
 }
+
+/* No less than 400px, no greater than 900px */
+@media (min-width:768px) and (max-width:1024px) {
+    #welfare .section-2 .block-introduce-fixed .introduce-left .bl-item .block-info {
+        padding-left: 12px;
+    }
+    #welfare .section-2 .block-introduce-fixed .box-image:before {
+        top: -110px;
+    }
+    #welfare .section-2 .block-introduce-fixed .box-image:after {
+        right: 0;
+    }
+
+}​

@@ -20,6 +20,46 @@ jQuery(function ($) {
 
   // fadein
   $(document).ready(function() {
+      // let section1 = $('.bl-item-1').offset().top;
+      // let section2 = $('.bl-item-2').offset().top;
+      // let section3 = $('.bl-item-3').offset().top;
+      //
+      // let scrollOffset = 800;
+      //
+      //
+      // $(window).scroll(function() {
+      //
+      //     let scroll = $(window).scrollTop() + scrollOffset;
+      //
+      //
+      //     if ( scroll > section1 ) {
+      //         // $('.introduce-right .box-image img').attr("src", "./images/welfare/welfare_Support3_Bg_pc_s.png");
+      //         // $('.introduce-right .box-image').addClass('abc');
+      //
+      //         $(".introduce-right .box-image img").fadeOut(1000, function() {
+      //             $('.introduce-right .box-image img').attr("src", "./images/welfare/welfare_Support3_Bg_pc_s.png");
+      //         }).fadeIn(1000);
+      //     }
+      //     if ( scroll > section2 ) {
+      //         // $('.introduce-right .box-image img').attr("src", "./images/welfare/welfare_Support3_Bg_pc.png");
+      //
+      //         $(".introduce-right .box-image img").fadeOut(1000, function() {
+      //             // $(".introduce-right .box-image img").attr("./images/welfare/welfare_Support3_Bg_pc.png");
+      //             $('.introduce-right .box-image img').attr("src", "./images/welfare/welfare_Support3_Bg_pc.png");
+      //         }).fadeIn(1000);
+      //     }
+      //     if ( scroll > section3 ) {
+      //         // $('.introduce-right .box-image img').attr("src", "./images/welfare/welfare_Support4_Bg_pc.png");
+      //
+      //         $(".introduce-right .box-image img").fadeOut(1000, function() {
+      //             // $(".introduce-right .box-image img").attr("./images/welfare/welfare_Support4_Bg_pc.png");
+      //             $('.introduce-right .box-image img').attr("src", "./images/welfare/welfare_Support4_Bg_pc.png");
+      //         }).fadeIn(1000);
+      //     }
+      // });
+
+
+
     $(window).scroll(function () {
       $('#xxxxxx .js-fadein').each(function () {
         var ptop = $(this).offset().top;
@@ -52,6 +92,8 @@ jQuery(function ($) {
             $('html, body').animate({scrollTop:target_top}, 500, 'swing');
             return false;});
     });
+
+
   
     /*↓jsはここに追記していく↓*/
 
@@ -71,5 +113,32 @@ jQuery(function ($) {
 
     }
 
+    if(typeof window.IntersectionObserver !== 'undefined') {
+
+        let options = {
+            threshold: [0.8, 1]
+        }
+        const targets = document.querySelectorAll('.cb');
+        const locker = document.querySelector('.locker__container');
+        function handleIntersection(entries) {
+            entries.map((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.current = entry.target.dataset.swap;
+
+                    $(".locker__container ." + entry.target.current).addClass("active");
+                } else {
+                    $(".locker__container ." + entry.target.current).removeClass("active");
+                }
+            });
+        }
+        const observer = new IntersectionObserver(handleIntersection, options);
+
+
+        targets.forEach(target => observer.observe(target));
+    } else {
+        // Fallback
+    }
+
 
 });
+

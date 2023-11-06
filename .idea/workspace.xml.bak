@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
@@ -19,46 +21,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="a089fa2f-5557-4e44-a3dc-116f4ee46913" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
     <list default="true" id="df5c0250-b1ac-48f2-9efa-b2c23fd6b521" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/mark2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_2pc_2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_Bottom_Logo_sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_Support1_Bg_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_Support1_Bg_sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_Support2_Bg_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_Support2_Bg_sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_Support3_Bg_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_Support3_Bg_pc_s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_Support3_Bg_sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_Support4_Bg_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_Support4_Bg_sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_accent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_accent_blur.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_accent_light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_accent_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_bg__.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_bg_mb1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_bg_mb2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_bg_mb3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_bg_pc@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_bg_sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_bg_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_cccent_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_img_no_trim.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_mark_trim.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_mb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_support1_bg__pc.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/css/interview.css" beforeDir="false" afterPath="$PROJECT_DIR$/interview/css/interview.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/welfare/css/welfare.css" beforeDir="false" afterPath="$PROJECT_DIR$/welfare/css/welfare.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/welfare/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/welfare/index.html" afterDir="false" />
->>>>>>> 4ab643a0f2d942918a085f7e8cf4c1b79c54ebfc
+      <change beforePath="$PROJECT_DIR$/welfare/js/welfare.js" beforeDir="false" afterPath="$PROJECT_DIR$/welfare/js/welfare.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,14 +62,6 @@
       <created>1698626530228</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-<<<<<<< HEAD
-      <updated>1698197449920</updated>
-      <workItem from="1698197451097" duration="10605000" />
-      <workItem from="1698302973465" duration="11728000" />
-      <workItem from="1698369027196" duration="28322000" />
-      <workItem from="1698419566974" duration="9736000" />
-      <workItem from="1698544719656" duration="209000" />
-=======
       <updated>1698626530228</updated>
       <workItem from="1698626533300" duration="873000" />
       <workItem from="1698627470368" duration="27706000" />
@@ -111,7 +70,6 @@
       <workItem from="1698973650316" duration="3227000" />
       <workItem from="1698979467517" duration="22947000" />
       <workItem from="1699059405653" duration="26909000" />
->>>>>>> 4ab643a0f2d942918a085f7e8cf4c1b79c54ebfc
     </task>
     <servers />
   </component>
@@ -144,3 +102,4 @@
     <state x="681" y="257" key="run.anything.popup/0.0.2048.1104@0.0.2048.1104" timestamp="1699069011321" />
   </component>
 </project>
+>>>>>>> 05a49c4b1ddd696b99deac0b9149746f3d08d318
