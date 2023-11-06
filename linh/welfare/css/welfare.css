@@ -1,0 +1,1261 @@
+/*
+
+【CSS記述ルール】
+
+① font-sizeはpxで指定してください
+　（rem、%等の指定はしないようお願いいたします）
+
+② welfare はディレクトリ名に変更してください
+
+③ 必ずディレクトリ名が付いたidセレクタを先頭に記述した後に、要素を記述してください
+　（例：#oneday .inner、#oneday .page-title 等）
+
+④ CSS内の画像指定パスは、CSSファイルから見た相対パスで指定してください
+　（例：../images/ディレクトリ名/画像名.拡張子）
+
+*/
+
+/*------------------------------------------------------------
+common
+------------------------------------------------------------*/
+.welfare {
+  font-family: 'Noto Sans JP', 'Century Gothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 游ゴシック体, YuGothic, "Yu Gothic Medium", 游ゴシック, 'Yu Gothic', メイリオ, Meiryo, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.franklin {
+  font-family: "libre-franklin", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+
+#welfare * {
+  box-sizing: border-box;
+}
+
+#welfare a {
+  transition: opacity .3s;
+}
+#welfare {
+  padding-top: 109px;
+  padding: 109px 0px 0px;
+}
+
+#welfare  .pageName {
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2c2c2c;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+#welfare  .pageName:after {
+  content: "";
+  width: 64px;
+  height: 2px;
+  background: #00A73C;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+}
+
+
+
+
+#welfare a[href^="tel:"] {
+  display: inline-block;
+  transition: none;
+}
+
+#welfare a:hover {
+  text-decoration: none;
+}
+
+#welfare a:focus-visible {
+  outline: none;
+}
+
+#welfare img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+#welfare .js-fadein {
+  opacity: 0;
+  transform: translate(0, 20px);
+  transition-property: opacity, transform;
+  transition-duration: 1s;
+}
+
+#welfare .scroll-in {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+#welfare .text {
+  margin-bottom: 2em;
+}
+
+#welfare .text:last-of-type {
+  margin-bottom: 0;
+}
+
+#welfare .pc-br {
+  display: none;
+}
+
+#welfare .notes {
+  display: inline-block;
+  position: relative;
+  margin-left: 1em;
+}
+
+#welfare .notes::before {
+  content: '\0203B';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -1em;
+}
+
+#welfare .inner {
+  width: calc(100% - 5px);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#welfare .flex {
+  /* flex-direction: column; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+#welfare  .title-des {
+  text-align: center;
+  position: relative;
+}
+#welfare  .title-des::after {
+  position: absolute;
+  content: "";
+  background-image: url(../images/welfare/welfare_icon_01_sp.png);
+  top: -37%;
+  left: -15px;
+  width: 164px;
+  height: 222px;
+  z-index: -1;
+}
+
+#welfare  .title-des::before {
+  position: absolute;
+  content: "";
+  background-image: url(../images/welfare/welfare_icon_02_SP.png);
+  bottom: 0px;
+  right: -12px;
+  width: 122px;
+  height: 152px;
+  z-index: -1;
+}
+
+
+#welfare  .title-des .dt-des {
+  font-size: 24px;
+  color: #0068B7;
+  font-weight: 700;
+  width: 275px;
+  margin: auto;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+#welfare  .title-des .dt-des::after {
+  position: absolute;
+  content: "";
+  background-image: url(../images/welfare/welfare_icon_01.png);
+  top:0px;
+  left: -5px;
+  width: 24px;
+  height: 20px;
+}
+
+#welfare  .title-des .dt-des::before {
+  position: absolute;
+  content: "";
+  background-image: url(../images/welfare/welfare_icon_02.png);
+  bottom: 0px;
+  right: 7px;
+  width: 24px;
+  height: 20px;
+}
+
+#welfare  .title-des .dd-des {
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 33px;
+}
+
+#welfare .block-main.one {
+  margin-bottom: 145px;
+}
+#welfare .block-main.two {
+  margin-bottom: 70px;
+}
+
+
+#welfare .dl-note.two {
+  margin-bottom: 150px;
+}
+#welfare .dl-note.three {
+  margin-bottom: 155px;
+}
+
+
+#welfare .content-flex .title-block.two ,#welfare .content-flex .dt-block.two{
+  color: #0068B7;
+}
+
+
+/* list-scroll */
+#welfare  .block-sroll {
+  padding: 0px 12px;
+  margin-bottom: 126px;
+}
+
+
+#welfare .list-scroll .item-scroll {
+  width: 100%;
+  text-align: left;
+}
+#welfare .list-scroll .item-scroll a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#welfare .list-scroll .item-scroll .box-img {
+  margin-bottom: 10px;
+}
+#welfare .list-scroll .item-scroll:hover {
+  opacity: 0.7;
+}
+
+#welfare .list-scroll .item-scroll .dl-scroll {
+  font-weight: 700;
+  background: #EDFEEE;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  position: relative;
+  padding: 18px 20px 20px 20px;
+}
+#welfare .list-scroll .item-scroll .dl-scroll.two {
+  background: #EDF8FE
+}
+
+
+
+
+#welfare .list-scroll .item-scroll:hover .icon-scroll circle#Ellipse_2281 {
+  fill: white;
+}
+#welfare .list-scroll .item-scroll .icon-scroll {
+  transition: 0.2s;
+  width: 40px;
+  height: 40px;
+ 
+}
+
+#welfare .list-scroll .item-scroll:hover .icon-scroll {
+  border: 2px solid #00A73C;
+  border-radius: 50%;
+  transform: translateY(5px);
+}
+
+#welfare .list-scroll .item-scroll:hover .icon-scroll.two {
+  border: 2px solid #0068B7;
+  border-radius: 50%;
+}
+
+
+#welfare .list-scroll .item-scroll:hover .icon-scroll path#icon_arrow-2 {
+  fill: #00A73C;
+}
+
+#welfare .list-scroll .item-scroll:hover .icon-scroll.two path#icon_arrow-2 {
+  fill: #0068B7;
+}
+
+
+
+#welfare .list-scroll .item-scroll .dl-scroll  .dt-scroll {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+}
+#welfare .list-scroll .item-scroll .dl-scroll  .dd-scroll {
+  position: absolute;
+  right: 15px;
+  top: 38%;
+}
+#welfare .list-scroll .item-scroll:nth-child(2n+1) .dl-scroll  .dt-scroll {
+ color: #00A73C;
+}
+#welfare .list-scroll .item-scroll:nth-child(2) .dl-scroll  .dt-scroll {
+  color: #0068B7;
+}
+
+
+/*block-main*/ 
+#welfare .block-main {
+  padding: 0px 12px;
+}
+
+
+#welfare .block-img.destop {
+  display: none;
+}
+#welfare .content-flex {
+  position: relative;
+}
+#welfare .content-flex .title-block {
+  font-size: 24px;
+  font-weight: 700;
+  color: #00A73C;
+  margin-bottom: 10px;
+}
+
+#welfare .content-flex::after {
+  position: absolute;
+  content: "";
+  background-image: url(../images/welfare/welfare_pic_01_sp.png);
+  width: 253px;
+  height: 316px;
+  top: -12%;
+  right: -12px;
+  z-index: -1;
+}
+
+#welfare .content-flex.two::after {
+  background-image: url(../images/welfare/welfare_pic_02_sp.png);
+}
+#welfare .content-flex.three::after {
+  background-image: url(../images/welfare/welfare_pic_03_sp.png);
+  top: -17%;
+}
+#welfare .content-flex.four::after {
+  background-image: url(../images/welfare/welfare_pic_04_sp.png);
+  top: -23%;
+}
+
+
+
+#welfare .content-flex .dt-block {
+  font-size: 20px;
+  font-weight: 700;
+  color: #00A73C;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  position: relative;
+}
+
+
+
+#welfare .content-flex .dt-block::after {
+  position: absolute;
+  content: "";
+  background-image: url(../images/welfare/welfare_icon_03.png);
+  width: 24px;
+  height: 20px;
+  left: 0px;
+  top:-5px;
+  z-index: 10;
+}
+#welfare .content-flex .dt-block.two::after {
+  background-image: url(../images/welfare/welfare_icon_04.png);
+}
+
+#welfare .content-flex .dd-block {
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 500;
+  margin-bottom: 23px;
+}
+#welfare .content-flex .list-block {
+  margin-bottom: 24px;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+
+#welfare .content-flex .list-block .item-block {
+  padding: 5px 16px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 8px;
+  margin-right: 14px;
+  border-radius: 30px;
+  border: 2px solid #00a73c;
+  background: white;
+}
+#welfare .content-flex.two .list-block .item-block {
+  border: 2px solid #0068B7;
+}
+#welfare .content-flex.three .list-block .item-block {
+  border: 2px solid #0068B7;
+}
+#welfare .content-flex.four .list-block .item-block {
+  border: 2px solid #0068B7;
+}
+#welfare  .dl-note {
+  background: url(../images/welfare/welfare_bg_01_sp.png);
+  background-size: cover;
+  background-position: center;
+  padding: 20px 40px 20px 20px;
+  width: 100vw;
+  color: white;
+  font-weight: 700;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#welfare  .dl-note.two {
+  background: url(../images/welfare/welfare_bg_02_sp.png);
+  background-size: cover;
+  background-position: center;
+}
+
+ #welfare  .dl-note.three {
+  background: url(../images/welfare/welfare_bg_03_sp.png);
+  background-size: cover;
+  background-position: center;
+} 
+
+#welfare .dl-note .flex-end-two .dd-title {
+   font-size: 16px;
+   line-height: 26px;
+}
+#welfare .dl-note .flex-end-two .dd-text {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+
+
+
+#welfare  .dl-note .dt-note {
+  font-size: 16px;
+  margin-bottom: 8px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid white;
+  width: 95%;
+}
+#welfare  .dl-note .samll-text {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+#welfare  .dl-note .dd-title {
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 5px;
+} 
+
+
+#welfare  .dl-note .dd-text {
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 500;
+} 
+
+
+/*SUBFOOTER*/
+#welfare .subfooter .inner{
+  padding-top:0px;
+  padding-bottom:52px;
+  text-align: center;
+}
+#welfare .subfooter .logo{
+  margin:0 auto;
+  width: fit-content;
+}
+#welfare .subfooter .inner .ttl{
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: 2.4px;
+  color: #2c2c2c;
+  margin-top: 16.5px;
+  margin-bottom: 19px;
+  text-align: center;
+  padding-left: 5px;
+}
+#welfare .subfooter .inner .text{
+  padding: 0 20px;
+  line-height: 2.5;
+}
+#welfare .subfooter .inner .ttl .green{
+  color: #00a73c;
+  position: relative;
+  left: 11px;
+}
+#welfare .subfooter{
+  position: relative;
+}
+#welfare .subfooter .fbg{
+  position: absolute;
+  width: 100%;
+  bottom:0;
+  left:0;
+  z-index: -1;
+}
+#welfare .subfooter .fbg img{
+  width: 100%;
+}
+#welfare .subfooter .button-list{
+  margin-top: 21px;
+  max-width: 856px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0px;
+  flex-direction: row;
+}
+
+#welfare .buttonaaa .icon {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transition: .3s;
+  transform: translateY(-50%);
+  width: 37px;
+}
+#welfare .subfooter p {
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  color: #2c2c2c;
+}
+
+#welfare .subfooter .button-list .buttonaaa{
+  width: 49%;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+  border: solid 4px #fff;
+  background-color: #00a73c;
+  background-image: linear-gradient(#fff, #fff);
+  color: #fff;
+  padding: 20px 0px 20px 16px;
+  border-radius: 40px;
+  background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .3s, color .3s;
+    position: relative;
+}
+#welfare .subfooter .button-list .buttonaaa:hover{
+  color:#00a73c;
+  border: solid 2px #00a73c;
+}
+#welfare .subfooter .button-list .buttonaaa.blu:hover{
+  color:#0068b7;
+  border: solid 2px #0068b7;
+}
+#welfare .subfooter .button-list .buttonaaa.blu{
+  background-color: #0068b7;
+}
+#welfare .subfooter .button-list .buttonaaa .icon{
+  right: 16px;
+  top: 50%;
+  transition: .3s;
+  transform: translateY(-50%);
+}
+#welfare .button-list .buttonaaa:hover .icon circle#Ellipse_2281{
+  fill: #00a73c;
+}
+#welfare .button-list .buttonaaa:hover .icon path#icon_arrow-2{
+  fill: #fff;
+}
+#welfare .button-list .buttonaaa.blu:hover .icon path#icon_arrow-2{
+  fill: #fff;
+}
+#welfare .button-list .buttonaaa.blu:hover .icon circle#Ellipse_2281{
+  fill: #0068b7;
+}
+#welfare .buttonaaa:hover {
+  background-size: 100% 100%;
+  color: #fff;
+  opacity: 1 !important;
+}
+#welfare .buttonaaa {
+  opacity: 1 !important;
+}
+
+
+#welfare  .blue {
+  color: #0068B7;
+}
+
+
+#welfare .sp-br {
+  display: block
+}
+
+
+@media print, screen and (min-width: 768px) {/* ---------- タブレット・PC以上 ---------- */
+  .welfare {
+    font-size: 16px;
+  }
+  #welfare .flex {
+    flex-direction:row
+  }
+  #welfare {
+    padding-top: 198px;
+    overflow: hidden;
+  }
+  #welfare a[href^="tel:"] {
+    color: inherit;
+    pointer-events: none;
+  }
+  
+  #welfare a:not([href^="tel:"]):hover {
+    opacity: .5;
+  }
+  
+  #welfare .sp-br {
+    display: none;
+  }
+  
+  #welfare .pc-br {
+    display: inline;
+  }
+
+  #welfare .pageName {
+    font-size: 32px;
+    line-height: 1.6;
+    letter-spacing: normal;
+    margin-bottom: 75px;
+  }
+  #welfare .pageName:after {
+    width: 80px;
+    height: 4px;
+    bottom: -25px;
+  }  
+
+  /* list-scroll */
+  #welfare  .block-sroll {
+    margin-bottom: 90px;
+  }
+  #welfare .list-scroll.flex {
+    flex-direction: row;
+    max-width: 1200px;
+    margin: auto;
+    width: auto;
+  }
+  #welfare .list-scroll .item-scroll .icon-scroll {
+    width: 48px;
+    height: 48px;
+  }
+  #welfare .list-scroll .item-scroll {
+    width: calc(100%/2 - 30px);
+    text-align: center;
+  }
+  #welfare .title-des {
+    margin-bottom: 45px;
+  }
+  #welfare .list-scroll .item-scroll .dl-scroll {
+    margin-bottom: 20px;
+    border-radius: 12px;
+    position: relative;
+    padding: 18px 20px 40px 20px;
+  }
+  #welfare .title-des::before {
+    background-image: url(../images/welfare/welfare_icon_02_pc.png);
+    bottom: -182%;
+    right: -33px;
+    width: 266px;
+    height: 335px;
+    z-index: -1;
+  }
+
+  #welfare .title-des::after {
+    position: absolute;
+    content: "";
+    background-image: url(../images/welfare/welfare_icon_01_pc.png);
+    top: -69%;
+    left: -15px;
+    width: 320px;
+    height: 605px;
+    z-index: -1;
+  }
+  #welfare .list-scroll .item-scroll .dl-scroll .dt-scroll {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  #welfare  .title-des .dt-des {
+    font-size: 48px;
+    width: auto;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+  }
+  #welfare .list-scroll .item-scroll .dl-scroll .dd-scroll {
+    position: absolute;
+    right: calc(50% - 12px);
+    top: unset;
+    bottom: 2px;
+  }
+  
+  #welfare  .title-des .dt-des::after {
+    position: absolute;
+    content: "";
+    background-image: url(../images/welfare/welfare_icon_01a.png);
+    top: -10px;
+    left: -75px;
+    width: 48px;
+    height: 39px;
+  }
+  
+  #welfare  .title-des .dt-des::before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/welfare/welfare_icon_02a.png);
+    bottom: 0px;
+    right: -75px;
+    width: 48px;
+    height: 39px;
+
+  }
+  
+  #welfare  .title-des .dd-des {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    max-width: 890px;
+    margin: auto;
+  }
+  
+  #welfare .content-flex .title-block {
+    font-size: 48px;
+    line-height: 76px;
+    margin-bottom: 30px;
+  }
+  
+  #welfare .content-flex .dt-block {
+    font-size: 32px;
+    padding-left: 25px;
+    margin-bottom: 17px;
+  }
+
+  #welfare .dl-note .flex-end-two .dd-title {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  #welfare .dl-note .flex-end-two .dd-text {
+    font-size: 32px;
+
+  }
+  /*block-main*/ 
+  #welfare .content-flex::after {
+    display: none;
+  }
+
+  #welfare .block-img.destop {
+    display: block
+  }
+  #welfare  .block-main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    padding: 0px 0px;
+  }
+
+
+
+  #welfare .block-main.one {
+    margin-bottom: 0;
+    padding-bottom: 165px;
+  }
+  #welfare  .block-main::after {
+    position: absolute;
+    content: "";
+    background: #EDFEEE;
+    height: 60.5%;
+    left: 0px;
+    top: 16%;
+    width: calc(50% + 720px);
+    border-top-right-radius: 165px;
+    z-index: -1;
+  }
+
+  #welfare .block-main.two::after {
+    position: absolute;
+    content: "";
+    background: #EDF8FE;
+    height: 595px;
+    left: unset;
+    right: 0px;
+    top: 16.5%;
+    width: calc(50% + 700px);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 0px;
+    z-index: -1;
+  }
+
+  #welfare .content-flex .dd-block {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 25px;
+    max-width: 560px;
+  }
+  #welfare .content-flex .list-block .item-block {
+    padding: 5px 22px;
+    font-size: 16px;
+    margin-bottom: 18px;
+    margin-right: 15px;
+    border-radius: 30px;
+  }
+  #welfare  .block-main .block-img {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-top: 50px;
+  }
+  #welfare .block-main .block-img.two {
+    padding-right: 0px;
+    padding-left: 30px;
+    /*justify-content: flex-start;*/
+    flex-wrap: wrap;
+    padding-top: 0px;
+    right: 0px;
+    top: 0px;
+    position: relative;
+    transition: .3s;
+  }
+  #welfare .block-main .block-img.two.sidebar-scroll{
+    position: fixed;
+  }
+  #welfare .block-main .block-img.two.hide-sidebar{
+    /*opacity: 0;*/
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+  }
+  #welfare .block-main .block-img.hide-sidebar .max-width-img .imgScroll{
+    top: unset;
+    bottom: 0;
+  }
+  #welfare .block-main .block-img.two .pointContent{
+    height: 110px;
+    display: block;
+    width: 100%;
+  }
+
+  #welfare  .block-main .block-img .max-width-img {
+    width: 100%;
+    max-width: 750px;
+
+  }
+  #welfare  .block-main.two .block-img .max-width-img {
+    position: absolute;
+    top: 110px;
+    left: 30px;
+  }
+
+
+
+
+
+  #welfare  .block-main .block-img.hide-sidebar .max-width-img{
+    top: unset;
+    bottom: 0;
+  }
+  #welfare .block-main .block-img .max-width-img .imgScroll{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .5s;
+  }
+  #welfare .block-main .block-img .max-width-img .imgScroll.active{
+    opacity: 1;
+  }
+  #welfare  .block-main.two .block-img .max-width-img::after {
+    position: absolute;
+    content: "";
+    background: url("../images/welfare/welfare_affer01.png");
+    width: 134px;
+    height: 134px;
+    top: -12px;
+    left: -1px;
+  }
+  #welfare  .block-main.two .block-img .max-width-img::before {
+    position: absolute;
+    content: "";
+    background: url("../images/welfare/welfare_affer02.png");
+    width: 212px;
+    height: 212px;
+    bottom: -70px;
+    right: -70px;
+  }
+  #welfare .content-flex .dt-block.two::after {
+    background-image: url("../images/welfare/welfare_icon_04a.png");
+    width: 48px;
+    height: 40px;
+    left: -5px;
+    top: -20px;
+  }
+
+  #welfare  .block-main .block-img .max-width-img  img {
+    width: 100%;
+  }
+
+  #welfare  .block-main .sroll-block-long {
+    width: 50%;
+    padding-left: 40px;
+  }
+  #welfare  .block-main .content-block .content-flex {
+    max-width: 560px;
+  }
+
+  #welfare .block-main .sroll-block-long.two {
+    /*max-height: 1040px;*/
+    /*overflow: scroll;*/
+    padding-left: 0px;
+    padding-right: 40px;
+    /*scrollbar-width: none;*/
+    position: relative;
+    z-index: 99;
+  }
+  #welfare .block-main .sroll-block-long.two::after {
+    position: absolute;
+    content: "";
+    background-image: url("../images/welfare/welfare_icon_last_pc.png");
+    top: 0%;
+    left: -72px;
+    width: 605px;
+    height: 605px;
+    z-index: -1;
+  }
+
+  #welfare .block-main .sroll-block-long.two::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+  }
+  #welfare .block-main  .content-block.two {
+    display: flex;
+     justify-content: flex-end;
+     margin-top: 120px;
+  }
+
+
+  #welfare  .dl-note {
+    background: url("../images/welfare/welfare_bg_01_pc.png");
+    padding: 29px 25px 30px 40px;
+    width: auto;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  #welfare  .dl-note.two {
+    background: url(../images/welfare/welfare_bg_02_pc.png);
+    margin-bottom: 150px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: 10px;
+  }
+  #welfare  .flex-end-two {
+    max-width: 540px;
+
+  }
+
+  #welfare  .dl-note.three {
+    background: url(../images/welfare/welfare_bg_03_pc.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  #welfare .dl-note .dt-note {
+    font-size: 20px;
+    line-height: 36px;
+    margin-bottom: 23px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+    width: 100%;
+    max-width: 520px;
+  }
+  #welfare  .dl-note .samll-text {
+    font-size: 16px;
+    margin-left: 15px;
+  }
+  #welfare  .dl-note .dd-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    max-width: 520px;
+  } 
+  
+  #welfare  .dl-note .dd-text {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    max-width: 520px;
+  } 
+
+
+  /*SUBFOOTER*/
+  #welfare .subfooter{
+    padding-top: 163px;
+  }
+  #welfare .subfooter .inner{
+    padding-top: 0px;
+    padding-bottom: 200px;
+    text-align: center;
+  }
+  #welfare .subfooter .logo{
+    margin:0 auto;
+    width: fit-content;
+  }
+  #welfare .subfooter .logo img{
+    width: 160px;
+  }
+  #welfare .subfooter .inner .ttl{
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: 4.8px;
+    text-align: center;
+    color: #2c2c2c;
+    margin-top: 17.5px;
+    margin-bottom: 37px;
+    padding-left: 0;
+  }
+  #welfare .subfooter .inner .ttl .green {
+    color: #00a73c;
+    position: relative;
+    left: 3px;
+  }
+  #welfare .subfooter{
+    position: relative;
+  }
+  #welfare .subfooter .fbg{
+    position: absolute;
+    width: 100%;
+    bottom:0;
+    left:0;
+    z-index: -1;
+  }
+  #welfare .subfooter .inner .text {
+    /* padding: 0 32px; */
+    line-height: 3;
+    font-size: 16px;
+  }
+  #welfare .subfooter .fbg img{
+    width: 100%;
+  }
+  #welfare .subfooter .button-list{
+    margin-top: 46px;
+    max-width: 856px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+  }
+  #welfare .subfooter .button-list .buttonaaa{
+    width: 388px;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    border: 2px solid white;
+    background-color: unset;
+    background-image: unset;
+    color: #fff;
+    padding: 33px 0px 33px 46px;
+    position: relative;
+    overflow: hidden;
+    z-index: 99;
+  }
+  #welfare .subfooter .button-list .buttonaaa:before{
+    content: "";
+    background-color: #00a73c;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -2;
+    border-radius: 50px;
+    border: unset;
+    transform: translate(-50%, -50%);
+  }
+
+  #welfare .subfooter .button-list .buttonaaa:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    border-color: transparent;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 1;
+    z-index: -1;
+    transition: .4s;
+    border-radius: 100%;
+  }
+  #welfare .subfooter .button-list .buttonaaa:hover:after{
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  #welfare .subfooter .button-list .buttonaaa:hover{
+    color:#00a73c;
+    border: 2px solid #00a73c;
+    background-size: unset;
+  }
+  #welfare .subfooter .button-list .buttonaaa.blu{
+    background-color: unset;
+  }
+  #welfare .subfooter .button-list .buttonaaa.blu:hover{
+    color:#0068b7;
+    border: 2px solid #0068b7;
+  }
+  #welfare .subfooter .button-list .buttonaaa.blu:before{
+    background-color: #0068b7;
+  }
+  #welfare .subfooter .button-list .buttonaaa .icon{
+    right: 26px;
+    top: 50%;
+    transition: .3s;
+    transform: translateY(-50%);
+    width: 40px;
+  }
+  #welfare .button-list .buttonaaa:hover .icon circle#Ellipse_2281{
+    fill: #00a73c;
+  }
+  #welfare .button-list .buttonaaa:hover .icon path#icon_arrow-2{
+    fill: #fff;
+  }
+  #welfare .button-list .buttonaaa.blu:hover .icon path#icon_arrow-2{
+    fill: #fff;
+  }
+  #welfare .button-list .buttonaaa.blu:hover .icon circle#Ellipse_2281{
+    fill: #0068b7;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------
+content style
+------------------------------------------------------------*/
+#welfare .yyyyyy {
+  background: url("../images/welfare/image_sp.jpg") no-repeat 50% 50% / cover;
+}
+
+@media print, screen and (min-width: 768px) {/* ---------- タブレット・PC以上 ---------- */
+  #welfare .yyyyyy {
+    background-image: url("../images/welfare/image_pc.jpg");
+  }
+}

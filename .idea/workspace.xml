@@ -20,40 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df5c0250-b1ac-48f2-9efa-b2c23fd6b521" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/mark2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_2pc_2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_Bottom_Logo_sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_Support1_Bg_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_Support1_Bg_sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_Support2_Bg_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_Support2_Bg_sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_Support3_Bg_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_Support3_Bg_pc_s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_Support3_Bg_sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_Support4_Bg_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_Support4_Bg_sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_accent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_accent_blur.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_accent_light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_accent_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_bg__.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_bg_mb1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_bg_mb2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_bg_mb3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_bg_pc@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_bg_sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_bg_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_cccent_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_img_no_trim.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_mark_trim.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_mb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welfare/images/welfare/welfare_support1_bg__pc.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/css/interview.css" beforeDir="false" afterPath="$PROJECT_DIR$/interview/css/interview.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/welfare/css/welfare.css" beforeDir="false" afterPath="$PROJECT_DIR$/welfare/css/welfare.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/welfare/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/welfare/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/welfare/js/welfare.js" beforeDir="false" afterPath="$PROJECT_DIR$/welfare/js/welfare.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
