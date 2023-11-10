@@ -826,6 +826,8 @@ body {
         margin-bottom: 14px;
         font-size: 16px;
         margin-right: 16px;
+        font-weight: 500;
+        background-color: #ffffff;
     }
 
     #welfare .section-1 .block-introduce .introduce-right .block-tag {
@@ -984,6 +986,8 @@ body {
     }
     #welfare .section-2 .block-introduce-fixed .introduce-left .item {
         font-size: 16px;
+        font-weight: 500;
+        background-color: #ffffff;
     }
     #welfare .section-2 .block-introduce-fixed .block-testimonial .text-summary {
         font-size: 20px;
@@ -1036,6 +1040,8 @@ body {
         padding: 6px 22px;
         margin-bottom: 13px;
         margin-right: 16px;
+        font-weight: 500;
+        background-color: #ffffff;
     }
     #welfare .section-2 .block-introduce-fixed .introduce-left .bl-item-1 .block-testimonial {
         margin-top: 27px;
@@ -1245,17 +1251,6 @@ body {
         background-color: #0068B7;
     }
 }
-
-@media print, screen and (max-width: 320px)  {
-    #welfare .section-1 .big-title {
-        padding: 2px 28px;
-    }
-    #welfare .section-2 .block-introduce-fixed .introduce-left .item {
-        display: block;
-    }
-
-}​
-
 /* No less than 400px, no greater than 900px */
 @media (min-width:768px) and (max-width:1024px) {
     #welfare .section-2 .block-introduce-fixed .introduce-left .bl-item .block-info {
@@ -1267,5 +1262,28 @@ body {
     #welfare .section-2 .block-introduce-fixed .box-image:after {
         right: 0;
     }
+    #welfare .section-2 .block-introduce-fixed .box-image {
+        left: -5px;
+    }
+    #welfare .section-2 .block-introduce-fixed .box-image:after {
+        right: 40px;
+    }
+    #welfare .section-3 .bg-contact:before {
+        background-size: cover;
+    }
+    #welfare .section-2 .block-introduce-fixed .introduce-right {
+        top: 190px;
+    }
 
 }​
+@media print, screen and (max-width: 320px)  {
+    #welfare .section-1 .big-title {
+        padding: 2px 28px;
+    }
+    #welfare .section-2 .block-introduce-fixed .introduce-left .item {
+        display: block;
+    }
+
+}​
+
+
