@@ -30,6 +30,10 @@ common
     font-family: 'HGSSoeiKakugothicUB';
     src: url('../fonts/HGSSoeiKakugothicUB-01.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
+@font-face {
+    font-family: 'HGGothicM-01';
+    src: url('../fonts/HGGothicM-01.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
 body {
     font-family: 'Noto Sans JP', 'Century Gothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 游ゴシック体, YuGothic, "Yu Gothic Medium", 游ゴシック, 'Yu Gothic', メイリオ, Meiryo, sans-serif;
 }
@@ -369,8 +373,13 @@ body {
 #esports .block-sponsor .bg-sponsor .box-right .item {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin-bottom: 20px;
+}
+#esports .block-sponsor .bg-sponsor .box-right .item .icon {
+    width: 20%;
+}
+#esports .block-sponsor .bg-sponsor .box-right .item .list-option {
+    width: 100%;
 }
 #esports .block-sponsor .bg-sponsor .border-gd .box-bg-white {
     font-size: 42px;
@@ -402,14 +411,35 @@ body {
 }
 #esports .block-sponsor .bg-sponsor .border-gd .box-right .list-option {
     font-size: 24px;
+    padding-left: 60px;
+    font-family: 'HGGothicM-01';
 }
+#esports .block-sponsor .bg-sponsor .border-gd .box-right .list-option .line:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #F7941D;
+    position: absolute;
+    left: -28px;
+    top: 10px;
+}
+#esports .block-sponsor .bg-sponsor .border-gd .box-right .list-option .text-yellow {
+    color: #FFF200;
+}
+
 #esports .block-sponsor .bg-sponsor .border-gd .content-description p {
     margin-bottom: 30px;
 }
-.border-text {
+#esports .block-sponsor .bg-sponsor .border-text {
     width: fit-content;
     border-top: 4px solid #ffffff;
     border-bottom: 4px solid #ffffff;
+}
+#esports .block-sponsor .bg-sponsor .line-link {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'KozukaGothicPr6NR';
 }
 #esports .block-about .row-item {
     display: flex;
