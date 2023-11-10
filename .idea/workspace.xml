@@ -20,154 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df5c0250-b1ac-48f2-9efa-b2c23fd6b521" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/esports/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/.idea/esports.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/css/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/css/esports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/css/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/fonts/DINPro-Medium_13936.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/fonts/HGMinchoE-01.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/fonts/HGSSoeiKakugothicUB-01.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/fonts/HP Simplified Hans Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/fonts/KanjyukuGothic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/fonts/KozGoPr6N-Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/fonts/Kozuka Gothic Pr6N R.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/fonts/KozukaGothicPr6NM.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/1x/_logo_footerAsset 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/1x/_logo_footerAsset 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/2x/_logo_footerAsset 4@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/2x/esport_logo_top@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/Asset 2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_banner_mb_2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_banner_pc_2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_bg_1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_bg_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_bg_2x_sky_night@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_bg_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_bg_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_bg_5_pc_2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_bg_6_pc_2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_bg_bottom_pc_2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_bg_keyboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_bg_top_pc_2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_bg_youtube@4x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_company_info_2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_icon_mail@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_icon_menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_icon_menu@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_icon_right_2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_logo_center.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_logo_footer_6@4x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_logo_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_rank_a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_rank_b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_rank_c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/js/esports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/css/dist/vjc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/css/vjc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/css/vjc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/fonts/eau_sans_bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/fonts/eau_sans_book.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/Mask Group 31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/Mask Group 7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/PC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/Rectangle 89.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/Rectangle 96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/SP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/banner-mb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/bg-banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/btn-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/contact-img-1-MB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/contact-img-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/contact-img-2-MB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/contact-img-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/exam-cam-360-MB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/exam-cam-360.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/exam-cross-talk-MB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/exam-cross-talk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/exam-maetore-MB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/exam-maetore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/exam-metaverse-MB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/exam-metaverse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/exam-vr-MB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/exam-vr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/footer-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/human.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/icon-close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/icon-lb-mb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/icon-menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/icon-woman_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/image-1-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/image-1-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/image-1-animation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/image-1-mb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/image-1-pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/image-2-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/image-2-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/image-2-mb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/image-2-pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/image-3-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/image-3-mb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/image-3-pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/image-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/image-4-mb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/image-4-pc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/invite-img-1-MB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/invite-img-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/invite-img-2-MB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/invite-img-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/invite-img-3-MB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/invite-img-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/invite-line-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/invite-line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/item-icon-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/item-icon-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/line-square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/logo-pc-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/logo-pc-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/man with gear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/man with papers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/man-chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/mitoku.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/process-bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/process-icon-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/process-icon-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/process-icon-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/process-icon-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/process-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/scrolltop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/service-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/slide.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/woman with paper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/images/vjc/work-vietnam.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/js/vjc/animate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/js/vjc/bodymovin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/js/vjc/cloud.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/js/vjc/cloudwoman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/js/vjc/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/js/vjc/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/js/vjc/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/js/vjc/normalman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/js/vjc/pencilman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/js/vjc/searchman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/js/vjc/vrman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/js/vjc/vrwoman.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vjc/js/vjc/woman.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esports/fonts/KozukaGothicPr6NR.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esports/images/esports/esport_bg_youtube.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/welfare/css/welfare.css" beforeDir="false" afterPath="$PROJECT_DIR$/welfare/css/welfare.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esports/css/esports.css" beforeDir="false" afterPath="$PROJECT_DIR$/esports/css/esports.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esports/fonts/Kozuka Gothic Pr6N R.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/esports/images/esports/esport_bg_youtube@4x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/esports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/esports/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vjc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -221,6 +80,7 @@
       <workItem from="1699521071364" duration="2460000" />
       <workItem from="1699578592256" duration="8367000" />
       <workItem from="1699588380830" duration="699000" />
+      <workItem from="1699600498889" duration="7444000" />
     </task>
     <servers />
   </component>
