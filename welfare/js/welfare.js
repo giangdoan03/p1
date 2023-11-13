@@ -20,27 +20,71 @@ jQuery(function ($) {
 
   // fadein
   $(document).ready(function() {
-      let section1 = $('.bl-item-1').offset().top;
-      let section2 = $('.bl-item-2').offset().top;
-      let section3 = $('.bl-item-3').offset().top;
+      // let section1 = $('.bl-item-1').offset().top;
+      // let section2 = $('.bl-item-2').offset().top;
+      // let section3 = $('.bl-item-3').offset().top;
+      //
+      // let scrollOffset = 800;
+      //
+      //
+      // $(window).scroll(function() {
+      //
+      //     let scroll = $(window).scrollTop() + scrollOffset;
+      //
+      //
+      //     if ( scroll > section1 ) {
+      //         $('.introduce-right .box-image img').attr("src", "./images/welfare/welfare_Support3_Bg_pc_s.png");
+      //     }
+      //     if ( scroll > section2 ) {
+      //         $('.introduce-right .box-image img').attr("src", "./images/welfare/welfare_Support3_Bg_pc.png");
+      //     }
+      //     if ( scroll > section3 ) {
+      //         $('.introduce-right .box-image img').attr("src", "./images/welfare/welfare_Support4_Bg_pc.png");
+      //     }
+      // });
 
-      let scrollOffset = 800;
 
 
-      $(window).scroll(function() {
 
-          let scroll = $(window).scrollTop() + scrollOffset;
+      $(document).ready(function () {
+          $(window).on('scroll', function () {
+              $('.welfareItem-scroll').each(function () {
+                  let ptop = $(this).offset().top;
+                  let scroll = $(window).scrollTop();
+                  let windowHeight = $(window).height();
+                  if (scroll > ptop - windowHeight + 100) {
+                      $(".imgScroll").removeClass('fadein');
+                      $(".imgScroll").removeClass('active');
+                      let attr = $(this).attr('data-scroll');
+                      $('#' + attr).addClass("fadein");
+                      $('#' + attr).addClass("active");
+                  }
+              });
+              let checkCl = $('#p1');
+              if (checkCl.length) {
+                  var nav = $('#p1').offset().top;
+              }
+              let heightBlockP2 = $("#data-scroll-01").height();
+              $("#welfare .introduce-right .box-image").css("height", heightBlockP2);
 
+              if ($(window).scrollTop() >= nav + $('#p1').outerHeight()) {
+                  $('#checkScroll').addClass("sidebar-scroll");
+              } else {
+                  $('#checkScroll').removeClass("sidebar-scroll");
+              }
 
-          if ( scroll > section1 ) {
-              $('.introduce-right .box-image img').attr("src", "./images/welfare/welfare_Support3_Bg_pc_s.png");
-          }
-          if ( scroll > section2 ) {
-              $('.introduce-right .box-image img').attr("src", "./images/welfare/welfare_Support3_Bg_pc.png");
-          }
-          if ( scroll > section3 ) {
-              $('.introduce-right .box-image img').attr("src", "./images/welfare/welfare_Support4_Bg_pc.png");
-          }
+              let Y = $(window).height() - $("#data-scroll-01").height() - 110;
+
+              let scroll = $(window).scrollTop();
+              let windowHeight = $(window).height();
+              let blFooter = $(".bl-footer").offset().top;
+
+              if (scroll > blFooter - windowHeight + Y - 70) {
+                  $('#checkScroll').addClass("hide-sidebar");
+              } else {
+                  $('#checkScroll').removeClass("hide-sidebar");
+              }
+          });
       });
 
 

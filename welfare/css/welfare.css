@@ -134,7 +134,7 @@ body {
     height: 100%;
 }
 
-#welfare .section-1 .btn {
+#welfare .section-1 .btn a {
     font-size: 16px;
     font-weight: 700;
     display: flex;
@@ -670,7 +670,7 @@ body {
     }
 
     #welfare .top-bar {
-        height: 199px;
+        height: 196px;
     }
 
     #welfare .section-1 h2.title-page:after {
@@ -714,27 +714,57 @@ body {
         padding-right: 19px;
         line-height: 31px;
         padding-bottom: 0;
+        cursor: pointer;
+    }
+    #welfare .section-1 .btn.btn-left .btn-text {
+        position: relative;
+        top: 4px;
     }
 
     #welfare .section-1 .btn.btn-left p {
-        margin-top: -12px;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        position: relative;
+        top: 7px;
+    }
+    #welfare .section-1 .btn.btn-right p {
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        top: 8px;
+        left: -4px;
+        position: relative;;
+    }
+    #welfare .section-1 .btn.btn-left:hover,
+    #welfare .section-1 .btn.btn-right:hover {
+        opacity: 0.7;
     }
 
     #welfare .section-1 .btn.btn-right {
         font-size: 18px;
-        padding-top: 19px;
-        padding-right: 29px;
         line-height: 32px;
         padding-bottom: 0;
+        cursor: pointer;
+    }
+    #welfare .section-1 .btn.btn-right .btn-text {
+        color: #0068B7;
+        position: relative;
+        top: 4px;
+        left: -5px;
+    }
+    #welfare .section-1 .btn {
+        border-radius: 12px;
     }
 
-    #welfare .section-1 .btn {
+    #welfare .section-1 .btn a{
         flex-direction: column;
         min-width: 560px;
     }
 
     #welfare .section-1 .btn .btn-text {
         text-align: center;
+        color: #00A73C;
     }
 
     #welfare .inner {
@@ -796,6 +826,8 @@ body {
         margin-bottom: 14px;
         font-size: 16px;
         margin-right: 16px;
+        font-weight: 500;
+        background-color: #ffffff;
     }
 
     #welfare .section-1 .block-introduce .introduce-right .block-tag {
@@ -854,6 +886,39 @@ body {
         display: block;
     }
 
+    #welfare .section-2 .block-introduce-fixed .introduce-right {
+        padding-right: 0px;
+        padding-left: 30px;
+        flex-wrap: wrap;
+        padding-top: 0px;
+        right: 0px;
+        top: 0px;
+        position: relative;
+        transition: .3s;
+    }
+
+    #welfare .section-2 .block-introduce-fixed .introduce-right.sidebar-scroll{
+        position: fixed;
+    }
+
+    #welfare .section-2 .block-introduce-fixed .block-fixed {
+        height: 110px;
+        display: block;
+        width: 100%;
+    }
+
+    #welfare .section-2 .block-introduce-fixed .box-image {
+        position: absolute;
+        top: 110px;
+        left: 30px;
+        width: 100%;
+        max-width: 750px;
+    }
+
+    /*#welfare .section-2 .block-introduce-fixed .sidebar-scroll .box-image {*/
+    /*    top: 0;*/
+    /*}*/
+
     #welfare .section-2 .block-introduce-fixed .wrap-content {
         display: flex;
     }
@@ -893,9 +958,9 @@ body {
 
     #welfare .section-2 .introduce-right {
         width: 50%;
-        max-width: 737px;
-        margin-left: 37px;
-        padding-top: 275px;
+        /*max-width: 737px;*/
+        /*margin-left: 37px;*/
+        /*padding-top: 275px;*/
     }
 
     #welfare .section-2 .block-introduce-fixed .introduce-left .title-primary {
@@ -921,6 +986,8 @@ body {
     }
     #welfare .section-2 .block-introduce-fixed .introduce-left .item {
         font-size: 16px;
+        font-weight: 500;
+        background-color: #ffffff;
     }
     #welfare .section-2 .block-introduce-fixed .block-testimonial .text-summary {
         font-size: 20px;
@@ -973,6 +1040,8 @@ body {
         padding: 6px 22px;
         margin-bottom: 13px;
         margin-right: 16px;
+        font-weight: 500;
+        background-color: #ffffff;
     }
     #welfare .section-2 .block-introduce-fixed .introduce-left .bl-item-1 .block-testimonial {
         margin-top: 27px;
@@ -1001,8 +1070,8 @@ body {
         width: 109px;
         height: 100%;
         position: absolute;
-        top: 0px;
-        left: 3px;
+        top: 2px;
+        left: 7px;
         z-index: 0;
     }
     #welfare .section-2 .block-introduce-fixed .box-image:after {
@@ -1014,8 +1083,8 @@ body {
         width: 212px;
         height: 212px;
         position: absolute;
-        top: 605px;
-        right: -78px;
+        top: 607px;
+        right: -75px;
         z-index: 0;
         rotate: 195deg;
     }
@@ -1025,8 +1094,8 @@ body {
         background-repeat: no-repeat;
         background-size: 100%;
         display: inline-block;
-        width: 109px;
-        height: 100%;
+        width: 113px;
+        height: 113px;
         position: absolute;
         bottom: 272px;
         right: 3px;
@@ -1048,36 +1117,40 @@ body {
         top: 160px;
         left: 0;
     }
-
-    .image {
-        opacity: 0;
-        transition: all 0.5s ease;
+    #welfare .section-2 .block-introduce-fixed .introduce-right.hide-sidebar{
+        /*opacity: 0;*/
+        position: absolute;
+        bottom: 0;
+        left: 50%;
     }
-    .image.active {
+    #welfare .block-introduce-fixed .introduce-right .box-image .imgScroll{
+        top: unset;
+        bottom: 0;
+    }
+
+    #welfare .block-introduce-fixed .introduce-right.hide-sidebar .box-image {
+        top: unset;
+        bottom: 0;
+    }
+
+    #welfare .block-introduce-fixed .introduce-right .imgScroll {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: .5s;
+    }
+    #welfare .block-introduce-fixed .introduce-right .imgScroll.active {
         opacity: 1;
     }
-
-    .locker__container {
-        top: 70px;
-        position: sticky;
-        position: -webkit-sticky;
-    }
-    .image--2, .image--3{
-        margin-top: 100px !important;
-    }
-    .locker__image img {
-        width: auto;
-        height: 70vh;
-        position: absolute;
-        transition: all 1s ease;
+    #welfare .section-1 .btn a {
+        font-size: 18px;
+        flex-direction: column;
+        padding-bottom: 6px;
     }
 
-
-    #welfare .introduce-right .box-image {
-        top: 70px;
-        position: sticky;
-        transition: all 0.5s ease;
-    }
     #welfare .introduce-right .box-image img{
         transition: all 1s ease;
     }
@@ -1126,11 +1199,58 @@ body {
         width: 388px;
         font-size: 18px;
     }
-    #image {
-        display: none;
+    #welfare .box-btn .btn-left-footer:hover {
+        color: #00a73c;
+        border: 2px solid #00a73c;
+        background-size: unset;
+    }
+    #welfare .box-btn .btn:hover:after {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    #welfare .box-btn .btn-left-footer:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 500px;
+        height: 500px;
+        background-color: #fff;
+        border-color: transparent;
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 1;
+        z-index: -1;
+        transition: .4s;
+        border-radius: 100%;
+    }
+    #welfare .box-btn .btn-left:hover span {
+        background-color: #00a73c;
+    }
+
+    #welfare .box-btn .btn-right-footer:hover {
+        color: #0068B7;
+        border: 2px solid #0068B7;
+        background-size: unset;
+    }
+    #welfare .box-btn .btn-right-footer:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 500px;
+        height: 500px;
+        background-color: #fff;
+        border-color: transparent;
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 1;
+        z-index: -1;
+        transition: .4s;
+        border-radius: 100%;
+    }
+    #welfare .box-btn .btn-right:hover span {
+        background-color: #0068B7;
     }
 }
-
 /* No less than 400px, no greater than 900px */
 @media (min-width:768px) and (max-width:1024px) {
     #welfare .section-2 .block-introduce-fixed .introduce-left .bl-item .block-info {
@@ -1142,5 +1262,28 @@ body {
     #welfare .section-2 .block-introduce-fixed .box-image:after {
         right: 0;
     }
+    #welfare .section-2 .block-introduce-fixed .box-image {
+        left: -5px;
+    }
+    #welfare .section-2 .block-introduce-fixed .box-image:after {
+        right: 40px;
+    }
+    #welfare .section-3 .bg-contact:before {
+        background-size: cover;
+    }
+    #welfare .section-2 .block-introduce-fixed .introduce-right {
+        top: 190px;
+    }
 
 }​
+@media print, screen and (max-width: 320px)  {
+    #welfare .section-1 .big-title {
+        padding: 2px 28px;
+    }
+    #welfare .section-2 .block-introduce-fixed .introduce-left .item {
+        display: block;
+    }
+
+}​
+
+
