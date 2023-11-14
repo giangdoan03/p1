@@ -185,9 +185,9 @@ body {
 }
 
 #esports .block-banner .box-image {
-    top: -12px;
-    left: -15px;
-    width: 100.8%;
+    top: -4px;
+    left: -19px;
+    width: 101.2%;
 }
 
 #esports .block-introduce .wrap-content .box {
@@ -198,7 +198,7 @@ body {
     letter-spacing: -4.6px;
     border-top: 4px solid #ffffff;
     border-bottom: 4px solid #ffffff;
-    padding-top: 44px;
+    padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 0px;
     margin-left: 243px;
@@ -209,7 +209,9 @@ body {
 #esports .block-what-game .bg-what-game {
     background-image: url(../images/esports/esport_bg_keyboard.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 101.1%;
+    background-position-y: 35px;
+    background-position-x: -20px;
 }
 
 #esports .block-what-game .bg-what-game .text-top {
@@ -218,14 +220,25 @@ body {
     background: linear-gradient(90deg, rgba(0, 173, 225, 1) 0%, rgba(47, 49, 142, 1) 50%, rgba(214, 14, 136, 1) 100%);
     text-align: center;
     margin-bottom: 164px;
+    padding: 21px 0;
+    padding-bottom: 39px;
+    line-height: 41px;
+    letter-spacing: 0.1px;
+    padding-left: 0;
 }
 
 #esports .block-what-game .bg-what-game .text-center {
     font-size: 116px;
     font-family: 'KozukaGothicPr6NM';
     margin-bottom: 183px;
-    padding-left: 70px;
+    padding-left: 61px;
+    top: -20px;
+    left: 9px;
+    letter-spacing: 2.4px;
 }
+/*#esports .block-what-game .bg-what-game .inner {*/
+/*    max-width: 1254px;*/
+/*}*/
 
 #esports .block-banner .text-banner {
     position: absolute;
@@ -234,16 +247,21 @@ body {
 }
 
 #esports .block-banner .text-banner .text-left {
-    font-size: 40px;
-    top: 36px;
-    right: -75px;
+    font-size: 63px;
+    top: 31px;
+    right: -58px;
+    font-weight: bold;
+    font-family: 'HGSSoeiKakugothicUB';
+    letter-spacing: -5px;
 }
-
 #esports .block-banner .text-banner .text-right {
     position: absolute;
-    right: 87px;
-    bottom: -430px;
-    font-size: 40px;
+    right: 89px;
+    bottom: -417px;
+    font-size: 63px;
+    font-family: 'HGSSoeiKakugothicUB';
+    letter-spacing: -0.4px;
+    font-weight: bold;
 }
 
 #esports .block-introduce .wrap-content .box .line:nth-child(1) {
@@ -256,7 +274,7 @@ body {
 }
 
 #esports .block-introduce {
-    margin-bottom: 50px;
+    margin-bottom: 142px;
 }
 
 #esports .company-info.only-pc .wrap-content .phone-number {
@@ -297,6 +315,11 @@ body {
     color: #ffffff;
 }
 
+#esports .bg-what-game .inner {
+    padding-left: 0;
+    max-width: 1232px;
+}
+
 #esports .block-what-game .bg-what-game .text-right {
     font-size: 52px;
     font-family: 'HGMinchoE';
@@ -305,15 +328,17 @@ body {
     text-align: center;
     display: inline-block;
     padding-left: 85px;
-    padding-top: 30px;
-    padding-right: 43px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 9px;
+    letter-spacing: 1.8px;
 }
 
 #esports .block-game-outstanding .item {
     font-family: 'KanjyukuGothic';
-    margin-bottom: 20px;
-    max-width: 950px;
+    margin-bottom: -2px;
+    max-width: 1020px;
+    padding-left: 58px;
 }
 
 #esports .block-game-outstanding .item .line-1 {
@@ -335,7 +360,7 @@ body {
 #esports .block-game-outstanding .item .border-outside {
     border: 2px solid #ffffff;
     padding: 5px;
-    border-radius: 36px;
+    border-radius: 46px;
 }
 
 #esports .block-about .row-item .info .description p {
@@ -343,20 +368,20 @@ body {
 }
 
 #esports .block-what-game {
-    margin-bottom: 50px;
+    margin-bottom: 236px;
 }
 
 #esports .block-game-outstanding .item .border-inside {
     border: 2px solid #ffffff;
-    padding: 20px 30px;
-    border-radius: 30px;
+    padding: 37px 30px;
+    border-radius: 42px;
 }
 
 #esports .block-game-outstanding .item .border-outside-b {
     padding: 2px;
     border-radius: 36px;
     background: linear-gradient(90deg, rgba(0, 173, 225, 1) 0%, rgba(47, 49, 142, 1) 50%, rgba(214, 14, 136, 1) 100%);
-    top: -18px;
+    top: -23px;
     right: -118px;
 }
 
@@ -364,16 +389,16 @@ body {
     background-image: url(../images/esports/esport_icon_right_2x.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 30px;
-    height: 30px;
+    width: 39px;
+    height: 39px;
     position: absolute;
-    right: 22px;
-    top: 32px;
+    right: 41px;
+    top: 45px;
 }
 
 #esports .block-game-outstanding .item .border-inside-b {
     border: 5px solid #000;
-    padding: 5px;
+    padding: 15px 5px;
     border-radius: 36px;
     background: linear-gradient(90deg, rgba(0, 173, 225, 1) 0%, rgba(47, 49, 142, 1) 50%, rgba(214, 14, 136, 1) 100%);
     padding-left: 20px;
@@ -394,16 +419,23 @@ body {
 #esports .block-title-benefit .bg-benefit .line-1 {
     font-size: 48px;
     font-family: 'KozGoPr6NB';
+    top: -5px;
+    left: 7px;
+    letter-spacing: 0.5px;
 }
 
 #esports .block-title-benefit .bg-benefit .line-2 {
     font-size: 55px;
     font-family: 'KozGoPr6NB';
+    left: 0px;
+    top: 4px;
+    letter-spacing: 1.8px;
 }
 
 #esports .block-title-benefit .bg-benefit .text-content {
     text-align: center;
-    padding: 156px 0;
+    padding: 193px 0;
+    padding-bottom: 125px;
 }
 
 #esports .block-title-benefit .bg-benefit .text-content:before {
@@ -412,7 +444,7 @@ body {
     height: 0;
     border-left: 576px solid transparent;
     border-right: 576px solid transparent;
-    border-top: 100px solid #000000;
+    border-top: 114px solid #000000;
     top: -1px;
     right: -46%;
     transform: translate(-50%, -1px);
@@ -435,6 +467,9 @@ body {
 
 #esports .block-brand .bg-brand .content .line-2 span {
     font-size: 37px;
+    top: 13px;
+    left: 99px;
+    letter-spacing: 5.7px;
 }
 
 #esports .block-brand .bg-brand .content span {
@@ -445,6 +480,16 @@ body {
     background: #ffffff;
 }
 
+#esports .block-brand .bg-brand .content {
+    padding: 35px 0;
+}
+
+#esports .bg-brand .content .image {
+    max-width: 1082px;
+    left: 59px;
+    top: 15px;
+}
+
 #esports .block-brand {
     margin: 100px 0;
     margin-bottom: 0;
@@ -453,8 +498,10 @@ body {
 #esports .bg-sponsor {
     background-image: url(../images/esports/esport_banner_4.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 102%;
     padding-top: 100px;
+    background-position-y: 13px;
+    background-position-x: -29px;
 }
 
 #esports .block-sponsor .label {
@@ -476,12 +523,43 @@ body {
 }
 
 #esports .block-sponsor .block-empty {
-    height: 800px;
+    height: 779px;
+}
+
+#esports .bg-sponsor .inner {
+    padding-left: 0;
+}
+
+#esports .block-sponsor .content-1 .label {
+    max-width: 970px;
+    padding-bottom: 11px;
+    padding-left: 81px;
+}
+#esports .block-sponsor .content-1 .content-description {
+    padding-right: 235px;
+    margin-bottom: 149px !important;
+}
+#esports .block-sponsor .content-1 .box-bg-white {
+    font-size: 42px;
+    background: #ffffff;
+    color: #000000;
+    font-family: 'KanjyukuGothic';
+    max-width: 534px !important;
+    width: auto !important;
+    border-radius: 38px;
+    padding: 5px 35px;
+    margin-bottom: 102px !important;
+    padding-left: 68px !important;
+    letter-spacing: 1.8px;
+    left: 14px;
 }
 
 #esports .block-recruitment .big-title {
     font-size: 66px;
     font-family: 'HGSSoeiKakugothicUB';
+    top: -14px;
+    left: 0px;
+    letter-spacing: 1.9px;
 }
 
 #esports .block-recruitment .box-desc {
@@ -495,30 +573,43 @@ body {
     color: #000000;
     font-size: 43px;
     font-family: 'KanjyukuGothic';
-    max-width: 828px;
-    padding-left: 35px;
-    margin-top: 20px;
-    margin-bottom: 70px;
+    max-width: 837px;
+    padding-left: 74px;
+    top: -9px;
+    margin-bottom: 86px;
+    padding-top: 7px;
+    padding-bottom: 0;
+    left: 17px;
 }
 
 #esports .block-recruitment .box-desc {
     margin-top: 100px;
+    padding: 42px 0;
+    top: -29px;
+    left: 14px;
+    min-width: 1210px;
+}
+
+#esports .block-recruitment .box-desc-2 {
+    padding: 58px 0;
+    margin-top: 230px;
 }
 
 #esports .block-recruitment-item {
-    margin-top: 100px;
+    margin-top: 147px;
 }
 
 #esports .block-recruitment .box-rounded {
     font-size: 31px;
-    border-radius: 30px;
+    border-radius: 38px;
     border: 3px solid #ffffff;
     max-width: 762px;
-    padding-left: 30px;
     margin-bottom: 10px;
     font-family: 'KanjyukuGothic';
     display: flex;
     align-items: center;
+    padding: 5px 0;
+    padding-left: 30px;
 }
 
 #esports .block-recruitment .box-rounded .text-number {
@@ -536,25 +627,32 @@ body {
     height: 40px;
     background: #ffffff;
     position: absolute;
-    right: 0;
+    right: 7px;
     top: 10px;
 }
 
 #esports .block-recruitment-item .line .text-desc {
     font-size: 24px;
     font-family: 'KozukaGothicPr6NR';
-    margin-top: 20px;
+    margin-top: 35px;
 }
 
 #esports .block-recruitment .list-welfare {
-    margin-top: 100px;
-    padding-left: 50px;
+    margin-top: 131px;
+    padding-left: 97px;
     font-size: 27px;
 }
 
 #esports .block-recruitment .list-welfare .line {
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     padding-left: 30px;
+}
+
+#esports .block-recruitment .box-desc-2 .big-title {
+    font-size: 62px;
+    top: -5px;
+    left: 2px;
+    letter-spacing: -1px;
 }
 
 #esports .block-recruitment .list-welfare .line:before {
@@ -576,28 +674,31 @@ body {
 }
 
 #esports .block-recruitment .box-desc .text-desc {
-    font-size: 21px;
+    font-size: 17px;
     font-family: 'KozukaGothicPr6NR';
+    top: -9px;
+    left: -9px;
 }
 
 #esports .block-recruitment-item .line {
-    margin-bottom: 40px;
-    padding-left: 70px;
+    margin-bottom: 70px;
+    padding-left: 87px;
 }
 
 #esports .block-contact-top .box-text {
     top: -23px;
+    left: 13px;
 }
 
 #esports .block-contact {
-    margin-top: 100px;
+    margin-top: 347px;
 }
 
 #esports .block-contact-top .text-item {
     background: linear-gradient(90deg, rgba(0, 173, 225, 1) 0%, rgba(47, 49, 142, 1) 50%, rgba(214, 14, 136, 1) 100%);
     margin-bottom: 50px;
     max-width: 745px;
-    padding-left: 20px;
+    padding-left: 94px;
     padding-top: 18px;
     padding-bottom: 19px;
 }
@@ -608,74 +709,95 @@ body {
 
 #esports .block-contact-top .text-item:nth-child(2) {
     font-size: 85px;
+    padding-top: 0;
 }
 
 #esports .block-contact-top .text-item:nth-child(3) {
-    font-size: 85px;
+    font-size: 68px;
+    padding-bottom: 28px;
+    top: -15px;
 }
 
 #esports .block-contact-top .btn-link {
     font-size: 36px;
-    max-width: 435px;
+    max-width: 439px;
     color: #fff;
     text-align: center;
     border: 1px solid #ffffff;
-    margin-left: 50px
+    margin-left: 72px;
+    padding: 15px 0;
+    top: 13px;
+    padding-left: 31px;
+    line-height: 49px;
+    padding-bottom: 22px;
+    padding-right: 32px;
 }
 
 #esports .block-contact-top .box-text .btn-link:before {
     content: '';
-    width: 10px;
-    height: 30px;
+    width: 12px;
+    height: 42px;
     background: #ffffff;
     display: inline-block;
+    position: absolute;
+    left: 43px;
+    top: 19px;
 }
 
 #esports .block-contact-top .box-text .btn-link:after {
     content: '';
     width: 0;
     height: 0;
-    border-top: 14px solid transparent;
-    border-left: 20px solid #ffffff;
-    border-bottom: 14px solid transparent;
+    border-top: 10px solid transparent;
+    border-left: 16px solid #ffffff;
+    border-bottom: 10px solid transparent;
     display: inline-block;
     margin-right: 10px;
+    position: absolute;
+    top: 32px;
+    right: 34px;
 }
 
 #esports .block-contact-bottom .title-bg-cross {
     font-size: 49px;
     text-align: center;
     font-family: 'KanjyukuGothic';
-    max-width: 778px;
+    max-width: 886px;
     margin: 0 auto;
     background: #ffffff;
     color: #000000;
-    margin-top: 50px;
+    margin-top: -96px;
+    padding: 10px 0;
+    left: 26px;
 }
 
 #esports .block-contact .title-contact-small {
     font-size: 23px;
-    max-width: 700px;
+    max-width: 776px;
     margin: 0 auto;
     margin-bottom: 50px;
+    padding-left: 49px;
 }
 
 #esports .block-contact-bottom .image-contact {
     max-width: 736px;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 148px;
+    left: 13px;
+    top: 8px;
 }
 
 #esports .block-contact-bottom .title-register {
     max-width: 964px;
     margin: 0 auto;
+    left: 22px;
 }
 
 #esports .block-contact-bottom .title-contact {
     max-width: 690px;
     margin: 0 auto;
     margin-bottom: 20px;
-    margin-top: 50px;
+    margin-top: 119px;
 }
 
 #esports .block-contact .block-contact-top {
@@ -686,26 +808,49 @@ body {
     content: '';
     width: 0;
     height: 0;
-    border-bottom: 79px solid #fff;
-    border-left: 70px solid transparent;
-    left: -70px;
+    border-bottom: 99px solid #fff;
+    border-left: 67px solid transparent;
+    left: -66px;
     position: absolute;
+    top: -1px;
+}
+
+#esports .block-sponsor .bg-sponsor .content-1 {
+    margin-bottom: 238px;
+}
+
+#esports .block-sponsor .bg-sponsor .content-2 .label{
+    max-width: 968px;
+}
+#esports .block-sponsor .bg-sponsor .content-2 .content-description {
+    margin-bottom: 131px !important;
+}
+
+#esports .block-sponsor .bg-sponsor .content-2 .box-bg-white{
+    max-width: 861px;
+    font-size: 35px !important;
+    padding-left: 81px !important;
+    top: -5px;
+    padding: 15px 71px !important;
+    left: 15px;
+    border-radius: 50px !important;
 }
 
 #esports .block-contact-bottom .title-bg-cross:after {
     content: '';
     width: 0;
     height: 0;
-    border-top: 79px solid #fff;
+    border-top: 98px solid #fff;
     border-right: 70px solid transparent;
-    right: -70px;
+    right: -69px;
     position: absolute;
+    top: 0px;
 }
 
 #esports .bg-person {
     margin: 0 auto;
     max-width: max-content;
-    margin-top: -986px;
+    margin-top: -1029px;
 }
 
 #esports .block-contact {
@@ -713,6 +858,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: 505px;
+    padding-bottom: 250px;
 }
 
 #esports .form-contact form .check label {
@@ -740,12 +886,22 @@ body {
 }
 
 #esports .form-contact form {
-    max-width: 970px;
+    max-width: 1008px;
     margin: 0 auto;
 }
 
 #esports .form-contact form .item {
     width: 100%;
+    margin-top: 92px;
+    padding-left: 41px;
+    margin-bottom: -74px;
+}
+
+#esports .form-contact form .items:nth-child(6) {
+    margin-bottom: 58px;
+}
+#esports .form-contact form .items:last-child {
+    margin-top: 109px;
 }
 
 #esports .form-contact form label {
@@ -805,12 +961,18 @@ body {
 }
 
 #esports .form-contact form .submit {
-    margin-top: 73px;
+    margin-top: 106px;
+    margin-bottom: 267px;
+    left: 12px;
 }
 
 #esports .form-contact .block-copy .text-big {
-    font-size: 35px;
+    font-size: 41px;
     text-align: center;
+    margin-bottom: 27px;
+    left: 29px;
+    top: -4px;
+    letter-spacing: 5.3px;
 }
 
 #esports .form-contact .block-copy .img {
@@ -829,6 +991,8 @@ body {
 
 #esports .form-contact form .check input[type='checkbox'] {
     height: 67px;
+    left: -33px;
+    top: 24px;
 }
 
 #esports .form-contact form .check .text {
@@ -856,6 +1020,8 @@ body {
 
 #esports .form-contact .block-copy .img {
     max-width: 866px;
+    left: 17px;
+    margin-bottom: 39px;
 }
 
 #esports .contact .block-copy .text-sm {
@@ -863,7 +1029,8 @@ body {
 }
 
 #esports .form-contact form .check {
-    margin-top: 143px;
+    margin-top: 241px;
+    padding-left: 93px;
 }
 
 #esports .form-contact form .check .text {
@@ -888,7 +1055,7 @@ body {
 }
 
 #esports .form-contact form .items {
-    gap: 38px;
+    gap: 15px;
     margin-bottom: 31px;
 }
 
@@ -922,6 +1089,7 @@ body {
     width: 451px;
     border-radius: 30px;
     padding-top: 20px;
+    padding-left: 10px;
 }
 
 #esports .block-fixed .item {
@@ -988,7 +1156,9 @@ body {
 }
 
 #esports .block-sponsor .bg-sponsor .box-right .item .icon {
-    width: 20%;
+    width: 15.1%;
+    left: 15px;
+    top: -1px;
 }
 
 #esports .block-sponsor .bg-sponsor .box-right .item .list-option {
@@ -1003,22 +1173,13 @@ body {
     width: fit-content;
     border-radius: 38px;
     padding: 5px 35px;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 
-.box-bg-youtube {
-    background-image: url(../images/esports/esport_bg_youtube.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-}
 
-#esports .block-sponsor .bg-sponsor .box-bg-youtube .text {
-    font-size: 44px;
-    font-family: 'HGSSoeiKakugothicUB';
-    padding: 57px 20px;
-    display: flex;
-    justify-content: end;
+#esports .block-sponsor .bg-sponsor .box-bg-youtube {
+    top: 35px;
+    left: 48px;
 }
 
 #esports .block-sponsor .bg-sponsor .border-gd .content-description {
@@ -1029,7 +1190,7 @@ body {
 
 #esports .block-sponsor .bg-sponsor .border-gd .box-right .list-option {
     font-size: 24px;
-    padding-left: 60px;
+    padding-left: 66px;
     font-family: 'HGGothicM-01';
 }
 
@@ -1062,54 +1223,114 @@ body {
     text-align: center;
     margin-top: 30px;
     font-family: 'KozukaGothicPr6NR';
+    top: 39px;
+    left: -14px;
+    letter-spacing: 0.7px;
 }
-
+#esports .block-sponsor .bg-sponsor .content-2 {
+    padding-bottom: 152px;
+    border-radius: 18px;
+    margin-bottom: 283px;
+}
+#esports .block-sponsor .bg-sponsor .content-3 {
+    padding-bottom: 22px;
+    border-radius: 20px;
+    padding-top: 68px;
+    padding-left: 85px;
+    margin-bottom: 605px;
+}
+#esports .block-sponsor .bg-sponsor .content-3 .label {
+    max-width: 967px;
+    padding-bottom: 11px;
+    padding-top: 4px;
+    padding-left: 75px;
+    letter-spacing: 0.8px;
+    top: -116px;
+    left: -93px;
+}
 #esports .block-about .row-item {
     display: flex;
     background: linear-gradient(#000, #000) padding-box, linear-gradient(to right, #02a8de, rgba(214, 14, 136, 1)) border-box;
     border-radius: 30px;
     border: 8px solid transparent;
-    margin-bottom: 100px;
+    margin-bottom: 126px;
+    justify-content: space-between;
 }
 
+#esports .block-about .row-item:first-child .image-desc {
+    width: 43.6%;
+}
+#esports .block-brand {
+    margin-top: 359px;
+}
+#esports .bg-brand .content .line-1 {
+    top: 12px;
+    left: -14px;
+    letter-spacing: 8.4px;
+}
+#esports .bg-brand .content .line-1 span:nth-child(3) {
+    left: -21px;
+}
+#esports .bg-brand .content .line-1 span:nth-child(2) {
+    left: -11px;
+    top: -7px;
+}
+#esports .bg-brand .content .line-1 span:nth-child(5) {
+    left: 30px;
+    letter-spacing: 4px;
+}
 #esports .block-title-benefit .bg-benefit {
     background: linear-gradient(90deg, rgba(0, 173, 225, 1) 0%, rgba(47, 49, 142, 1) 50%, rgba(214, 14, 136, 1) 100%);
 }
 
 #esports .block-title-benefit {
-    margin-bottom: 100px;
+    margin-bottom: 256px;
 }
 
 #esports .block-game-outstanding {
-    margin-bottom: 100px;
+    margin-bottom: 142px;
+}
+
+#esports .block-about .inner {
+    padding-left: 0;
 }
 
 #esports .block-about .row-item .info {
-    width: 50%;
+    width: 52%;
     padding: 29px;
     padding-left: 0;
-    padding-top: 72px;
+    padding-top: 66px;
 }
 
-#esports .block-about .row-item:nth-child(1) .image-desc img {
-    border-top-right-radius: 24px;
-    border-bottom-right-radius: 24px;
+#esports .block-about .row-item .image-desc img {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 #esports .block-about .row-item .image-desc {
     width: 50%;
 }
-
+#esports .block-about .row-item:nth-child(2) .image-desc {
+    width: 47.6%;
+    padding-top: 99px;
+}
 #esports .block-about .row-item .info .title {
     font-size: 46px;
     background: linear-gradient(90deg, rgba(0, 173, 225, 1) 0%, rgba(47, 49, 142, 1) 50%, rgba(214, 14, 136, 1) 100%);
     padding-left: 30px;
 }
+#esports .block-about .row-item:nth-child(2) .info .description {
+    padding-bottom: 50px;
+}
+
+#esports .block-about .row-item:nth-child(3) .image-desc {
+    width: 44.8%;
+}
 
 #esports .block-about .row-item .info .description {
     font-size: 17px;
-    padding-left: 30px;
-    padding-top: 30px;
+    padding-left: 65px;
+    padding-top: 74px;
 }
 
 @media print, screen and (max-width: 768px) {
@@ -1131,15 +1352,30 @@ body {
 
     #esports .block-introduce .wrap-content .box {
         font-size: 16px;
-        border-top: 4px solid #ffffff;
-        border-bottom: 4px solid #ffffff;
+        border-top: 2px solid #ffffff;
+        border-bottom: 2px solid #ffffff;
         padding-left: 0px;
         margin-left: 0;
         line-height: normal;
         margin-right: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #esports .block-introduce .wrap-content {
+        padding-left: 25px;
+        padding-right: 25px;
     }
     #esports .block-what-game .bg-what-game .text-center {
         font-size: 32px;
+        margin-bottom: 52px;
+        padding-left: 16px;
+    }
+    #esports .block-introduce .wrap-content .box .line {
+        letter-spacing: 0;
+        line-height: 34px;
+    }
+    #esports .block-contact {
+        padding-bottom: 100px;
     }
     #esports .block-banner .text-banner .text-left {
         font-size: 20px;
@@ -1153,6 +1389,8 @@ body {
     }
     #esports .block-about .row-item .info .title {
         font-size: 13px;
+        top: 18px;
+        max-width: 170px;
     }
     #esports .block-about .row-item .image-desc {
         height: 210px;
@@ -1161,6 +1399,49 @@ body {
     }
     #esports .block-about .row-item .info {
         width: 100%;
+        padding: 0;
+    }
+    #esports .block-what-game .bg-what-game .text-right {
+        font-size: 17px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+    #esports .block-what-game .bg-what-game .text-top {
+        font-size: 17px;
+        margin-bottom: 141px;
+        padding: 10px 0;
+        padding-bottom: 15px;
+        line-height: 27px;
+        letter-spacing: 0.1px;
+        padding-left: 0;
+    }
+    #esports .block-contact-top .btn-link {
+        font-size: 17px;
+        max-width: 435px;
+        color: #fff;
+        text-align: center;
+        border: 1px solid #ffffff;
+        margin-left: 45px;
+    }
+    #esports .block-contact-top .btn-link {
+        font-size: 9px;
+        max-width: 120px;
+        margin-left: 14px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+    }
+    #esports .block-contact-top .box-text .btn-link:before {
+        content: '';
+        width: 5px;
+        height: 20px;
+    }
+    #esports .block-contact-top .box-text .btn-link:after {
+        border-top: 6px solid transparent;
+        border-left: 10px solid #ffffff;
+        border-bottom: 6px solid transparent;
     }
     #esports .block-title-benefit .bg-benefit .line-1 {
         font-size: 17px;
@@ -1173,7 +1454,7 @@ body {
         border-right: 172px solid transparent;
         border-top: 40px solid #000000;
         top: 1px;
-        right: -33%;
+        right: -42%;
         transform: translate(-50%, -1px);
         position: absolute;
     }
@@ -1184,6 +1465,10 @@ body {
         font-size: 13px;
     }
 
+    #esports .block-about .row-item:nth-child(2) .image-desc {
+         padding-top: 0;
+    }
+
     #esports .block-sponsor .bg-sponsor .border-gd .content-description p {
         font-size: 9px;
     }
@@ -1192,6 +1477,7 @@ body {
     }
     #esports .block-sponsor .bg-sponsor .border-gd .box-right .list-option {
         font-size: 9px;
+        padding-left: 22px;
     }
     #esports .block-sponsor .bg-sponsor .box-bg-youtube .text {
         font-size: 10px;
@@ -1201,6 +1487,7 @@ body {
     }
     #esports .block-recruitment .box-desc .text-desc {
         font-size: 8px;
+        left: 0;
     }
     #esports .block-recruitment .title-bg-white {
         font-size: 13px;
@@ -1208,24 +1495,43 @@ body {
     #esports .block-recruitment .box-rounded {
         font-size: 11px;
         border: 1px solid #ffffff;
+        max-width: 263px;
+        padding-left: 10px;
     }
     #esports .block-recruitment .box-rounded .text-number {
         font-size: 11px;
+        margin-right: 0;
+        width: 30px;
     }
     #esports .block-recruitment-item .line .text-desc {
         font-size: 10px;
+        margin-top: 15px;
     }
     #esports .block-recruitment-item .line {
-        padding-left: 20px;
+        padding-left: 25px;
+        margin-bottom: 10px;
     }
     #esports .block-recruitment .box-rounded .text-number:before {
         width: 1px;
         height: 12px;
-        right: 42px;
+        right: 10px;
         top: 3px;
+    }
+    #esports .bg-benefit .inner {
+        padding-left: 0;
+        padding-right: 0;
     }
     #esports .block-recruitment .list-welfare {
         font-size: 9px;
+        padding-left: 15px;
+        margin-top: 5px
+    }
+    #esports .block-about .row-item:nth-child(3) .info .description p:nth-child(1),
+    #esports .block-about .row-item:nth-child(3) .info .description p:nth-child(2){
+        max-width: 150px;
+    }
+    #esports .block-about .row-item .info .description p {
+        margin-bottom: 10px;
     }
     #esports .form-contact form label {
         font-size: 14px;
@@ -1248,12 +1554,56 @@ body {
     }
     #esports .block-contact-bottom .title-bg-cross {
         font-size: 17px;
+        max-width: 280px;
+    }
+    #esports .block-contact-bottom .title-bg-cross:before {
+        border-bottom: 40.3px solid #fff;
+        border-left: 28px solid transparent;
+        left: -28px;
+    }
+    #esports .block-contact-bottom .title-bg-cross:after {
+        border-top: 39.9px solid #fff;
+        border-right: 28px solid transparent;
+        right: -28px;
+    }
+    #esports .block-contact .title-contact-small {
+        font-size: 9px;
+        padding-left: 0;
+        max-width: 270px;
+        margin-bottom: 20px;
+    }
+    #esports .block-recruitment-item {
+        margin-top: 20px;
+    }
+    #esports .block-contact .block-contact-top {
+        height: 253px;
+    }
+    #esports .block-recruitment .title-bg-white {
+        margin-bottom: 20px;
+        left: 0;
+        padding-left: 27px;
+        padding-top: 3px;
+        max-width: 255px;
+    }
+    #esports .form-contact form .items {
+        margin-bottom: 0;
     }
     #esports .block-contact-top .text-item {
-        margin-bottom: 28px;
+        margin-bottom: 11px;
+        max-width: 181px;
+        padding-left: 20px;
+        padding-top: 3px;
+        padding-bottom: 7px;
+    }
+    #esports .block-contact-bottom .image-contact {
+        max-width: 285px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        left: 0;
+        top: 8px;
     }
     #esports .bg-person {
-       margin-top: 0;
+        margin-top: -240px;
     }
     #esports .block-contact-top .text-item:first-child {
         font-size: 17px;
@@ -1262,10 +1612,11 @@ body {
         font-size: 23px;
     }
     #esports .block-contact-top .text-item:nth-child(3) {
-        font-size: 10px;
+        font-size: 17px;
+        padding-bottom: 10px;
     }
     #esports .form-contact form .check .text {
-        font-size: 14px;
+        font-size: 12px;
     }
     #esports .form-contact form .check label {
         font-size: 14px;
@@ -1277,11 +1628,18 @@ body {
         line-height: 38px;
     }
     #esports .form-contact form .check label span {
-        height: 38px;
+        height: 19px;
         font-size: 14px;
+        line-height: 20px;
+        top: 1px;
+        left: -18px;
     }
     #esports .form-contact .block-copy .text-big {
         font-size: 17px;
+        left: 0;
+    }
+    #esports .form-contact .block-copy .img {
+        left: 0;
     }
     #esports .block-fixed .item-left .text {
         font-size: 12px;
@@ -1295,6 +1653,15 @@ body {
         left: -1px;
         margin-bottom: 5px;
 
+    }
+    #esports .form-contact form .check input[type='checkbox'] {
+        height: 26px;
+        left: 0;
+        top: 24px;
+    }
+    #esports .block-contact-bottom .title-contact {
+        max-width: 270px;
+        margin-top: 46px;
     }
     #esports .block-fixed .item-left .text-sm {
         font-size: 10px;
@@ -1324,4 +1691,263 @@ body {
         padding-right: 16px;
         padding-top: 10px;
     }
+    #esports .form-contact form .item-row > div {
+        padding: 0 8px;
+    }
+    #esports .form-contact .select-box .icon-down {
+        right: 16px;
+        width: 13px;
+    }
+    #esports .form-contact form .item-row {
+        margin: 0 -9px;
+    }
+    #esports .block-sponsor .block-empty {
+        height: 195px;
+    }
+    #esports .block-sponsor .bg-sponsor .border-gd {
+        padding: 10px 20px;
+        border-radius: 12px;
+        border: 3px solid transparent;
+        margin-bottom: 52px;
+    }
+    #esports .block-sponsor .label {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        top: -29px;
+        left: -22.8px;
+    }
+    #esports .block-sponsor .bg-sponsor .content-3 .label {
+        top: -30px;
+        left: -23px;
+    }
+    #esports .form-contact .block-copy .text-sm {
+        font-size: 12px;
+    }
+    #esports .block-recruitment .big-title {
+        font-size: 22px;
+    }
+    #esports .block-brand .bg-brand .content {
+        font-size: 23px;
+        padding: 10px 0;
+    }
+    #esports .block-brand .bg-brand .content .line-2 span {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    #esports .block-brand .bg-brand .content .line-2 {
+        padding-right: 27px;
+        top: -12px;
+        line-height: 20px;
+        left: -74px;
+    }
+    #esports .block-sponsor .bg-sponsor .border-gd .box-right .list-option .line:before {
+        width: 9px;
+        height: 9px;
+        left: -12px;
+        top: 4px;
+    }
+    #esports .block-about .row-item .info .description {
+        font-size: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 40px;
+    }
+    #esports .block-about .row-item .image-desc img {
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+    #esports .block-about .row-item:nth-child(1) .info .description p:first-child {
+        max-width: 150px;
+    }
+    #esports .block-about .row-item:nth-child(2) .info .description p:first-child{
+        max-width: 150px;
+    }
+    #esports .block-game-outstanding .item .line-1 {
+        font-size: 12px;
+    }
+    #esports .block-game-outstanding .item .border-inside {
+        border: 1px solid #ffffff;
+        padding: 10px 10px;
+    }
+    #esports .block-game-outstanding .item .line-2 {
+        font-size: 12px;
+    }
+    #esports .block-game-outstanding .item .arrow-right {
+        border-top: 8px solid transparent;
+        border-left: 12px solid #FFF200;
+        border-bottom: 8px solid transparent;
+    }
+    #esports .block-game-outstanding .item .border-outside {
+        border: 1px solid #ffffff;
+    }
+    #esports .block-game-outstanding .item .border-outside-b {
+        top: -14px;
+        right: -1px;
+    }
+    #esports .block-game-outstanding .item .line-2-content {
+        width: 229px;
+    }
+    #esports .block-game-outstanding .item .border-inside-b {
+        border: 2px solid #000;
+        padding: 3px;
+        padding-left: 13px;
+    }
+    #esports .block-game-outstanding .item .icon-right {
+        width: 18px;
+        height: 18px;
+        right: 22px;
+        top: 15px;
+    }
+    #esports .top-bar {
+        margin-top: 15px;
+    }
+    #esports .block-mail .wrap-content {
+        max-width: 135px;
+    }
+    /*#esports .wrap-content .logo img {*/
+    /*    width: 70%;*/
+    /*}*/
+    #esports .top-bar .logo {
+        max-width: 135px;
+    }
+    #esports .only-mb.icon-menu {
+        max-width: 20px;
+    }
+    #esports .bg-what-game .inner {
+        padding-left: 12px;
+    }
+    #esports .block-about .inner {
+        padding-left: 12px;
+    }
+    #esports .bg-sponsor .inner {
+        padding-left: 12px;
+    }
+    #esports .block-game-outstanding .item {
+        padding-left: 0;
+    }
+    #esports .block-sponsor .bg-sponsor .border-gd .content-description {
+        padding-right: 0;
+        margin-bottom: 35px !important;
+    }
+    #esports .block-sponsor .bg-sponsor .border-gd .box-bg-white{
+        font-size: 10px !important;
+        margin-bottom: 44px !important;
+        left: 0;
+    }
+    #esports .block-sponsor .bg-sponsor .box-right .item .icon {
+        left: 0;
+    }
+    #esports .block-sponsor .bg-sponsor .content-2 .box-bg-white {
+        left: 0;
+        padding: 15px 23px !important;
+        margin-bottom: -10px !important;
+    }
+    #esports .form-contact form .item {
+        padding-left: 0;
+    }
+    #esports .block-sponsor .bg-sponsor .line-link {
+        font-size: 10px;
+    }
+    #esports .block-sponsor .bg-sponsor .box-bg-youtube {
+        left: 0;
+    }
+    #esports .block-recruitment .box-desc {
+        left: 0;
+        min-width: auto;
+        padding: 18px 0;
+    }
+    #esports .block-recruitment .box-desc-2 .big-title {
+        font-size: 15px;
+    }
+    #esports .block-contact {
+        margin-top: 60px;
+    }
+    #esports .block-recruitment .list-welfare .line:before {
+        width: 10px;
+        height: 10px;
+        background: #ffffff;
+        left: 14px;
+        top: 0px;
+    }
+    #esports .block-contact-top .btn-link {
+        line-height: normal;
+    }
+    #esports .form-contact form .check {
+        margin-top: 108px;
+        padding-left: 0;
+    }
+    #esports .block-recruitment .list-welfare .line:last-child {
+        padding-left: 26px;
+    }
+    #esports .block-contact-top .text-item:nth-child(3) {
+         top: 0;
+    }
+    #esports .block-contact-bottom .title-bg-cross {
+        margin-top: 0;
+    }
+    #esports .block-contact-bottom .title-bg-cross {
+        padding: 6px 0;
+        left: 0;
+        top: 26px;
+    }
+    #esports .block-recruitment .box-desc-2 {
+        padding: 25px 0;
+        margin-top: 70px;
+    }
+    #esports .block-contact-bottom .title-register {
+        max-width: 348px;
+        left: 0;
+    }
+    #esports .form-contact form textarea {
+        min-height: 61px;
+    }
+    #esports .block-contact-top .btn-link {
+        padding: 5px;
+        justify-content: center;
+        font-size: 11px;
+        top: 0px;
+    }
+    #esports .block-contact-top .box-text .btn-link:before {
+        display: none;
+    }
+    #esports .block-contact-top .box-text .btn-link:after {
+        display: none;
+    }
+    #esports .block-introduce {
+        margin-bottom: 50px;
+    }
+    #esports .block-what-game {
+        margin-bottom: 60px;
+    }
+    #esports .block-game-outstanding {
+        margin-bottom: 45px;
+    }
+    #esports .block-title-benefit {
+        margin-bottom: 72px;
+    }
+    #esports .block-about .row-item {
+        border-radius: 15px;
+        border: 3px solid transparent;
+        margin-bottom: 33px;
+        justify-content: space-between;
+    }
+    #esports .block-brand {
+        margin-top: 70px;
+    }
+    #esports .form-contact form .submit {
+        margin-top: 80px;
+        margin-bottom: 66px;
+        left: 0;
+    }
+    #esports .form-contact form .items:nth-child(6) {
+        margin-bottom: 0;
+    }
+    #esports .bg-brand .content .image {
+        left: 0px;
+        top: 6px;
+    }
+}
+
+#esports .block-fixed {
+    display: none;
 }

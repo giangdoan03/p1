@@ -20,14 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6a1065e-0c9e-43af-ba17-e7fc41379083" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/esports/fonts/DINPro-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/fonts/KozGoPro-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/fonts/MS-Gothic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/bg_pf_pc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esports/images/esports/esports_person_pc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esports/css/esports.css___" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esports/images/esports/esports_game_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esports/images/esports/esports_youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/esports/index.html____" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/esports/css/esports.css" beforeDir="false" afterPath="$PROJECT_DIR$/esports/css/esports.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esports/images/esports/2023.09　esportsLP（通常版）.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/esports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/esports/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,17 +39,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="2YADIfXK6RDMvw1RKmsYXL8z0iP" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6a1065e-0c9e-43af-ba17-e7fc41379083" name="Default Changelist" comment="" />
+      <created>1699959416061</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699959416061</updated>
+      <workItem from="1699959419026" duration="17647000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

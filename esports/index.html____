@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=0.5">
+    <title>esports応援制度のある会社</title>
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" media="all" href="./css/style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style type="text/css">
+        @media print, screen and (min-width: 768px) {
+            body {
+                min-width: 1200px;
+            }
+        }
+    </style>
+
+</head>
+
+<body style="background: #000000">
+
+
+<main id="main_wrap">
+    <!--<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">-->
+
+    <!--font noto sans jp-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;700;900&display=swap" rel="stylesheet">
+
+
+    <!-- ↑ 編集不可領域 ↑ -->
+
+
+    <!-- ↓ 編集可能領域 ↓ -->
+
+
+    <link rel="stylesheet" media="all" href="./css/esports.css"/>
+    <script type="text/javascript" src="./js/esports.js"></script>
+
+
+    <div id="esports" class="esports">
+        <div class="block-top-bar top-bar">
+            <div class="inner">
+                <div class="wrap-content">
+                    <div class="logo">
+                        <img src="./images/esports/esport_logo_top.png" alt="logo">
+                    </div>
+                    <div class="company-info only-pc">
+                        <div class="wrap-content">
+                            <div class="text-info">
+                                <img src="./images/esports/esport_company_info_2x.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-mail">
+                        <div class="wrap-content">
+                            <a href="mailto:someone@example.com">
+                                <img src="./images/esports/esport_icon_menu.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="only-mb icon-menu">
+                        <a href="">
+                            <img src="./images/esports/esport_icon_menu@2x.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-banner">
+            <div class="inner">
+                <div class="text-banner">
+                    <div class="text-left">
+                        勉強やスポーツは苦手
+                    </div>
+                    <div class="text-right">
+                        だけどゲームは好きで沢山や
+                    </div>
+                </div>
+            </div>
+            <div class="box-image">
+                <picture>
+                    <source media="(max-width: 767px)" srcset="./images/esports/esport_bg_6_pc_2x.png 2x">
+                    <source media="(min-width: 768px)" srcset="./images/esports/esport_bg_6_pc_2x.png 2x">
+                    <img class="sizes" src="./images/esports/esport_bg_6_pc_2x.png" alt="">
+                </picture>
+            </div>
+        </div>
+        <div class="block-introduce">
+            <div class="inner">
+                <div class="wrap-content">
+                    <div class="box">
+                        <div class="line">
+                            勉強やスポーツは苦手。
+                        </div>
+                        <div class="line">
+                            だけどゲームは好きで沢山やってきた。
+                        </div>
+                        <div class="line">
+                            でもプロになれる程じゃない･･･。
+                        </div>
+                        <div class="line">
+                            何かに活かせないだろうか？
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-what-game">
+           <div class="bg-what-game">
+               <div class="inner">
+                   <div class="text-top">
+                       そんなあなたに届けたい、平山からのメッセージ
+                   </div>
+                   <div class="text-center">
+                       ゲームは <br>
+                       ただの遊び？
+                   </div>
+                   <div class="text-right">
+                       いいえ、立派なスキルです。
+                   </div>
+               </div>
+           </div>
+        </div>
+        <div class="block-game-outstanding">
+            <div class="inner">
+                <div class="item">
+                    <div class="line-1 border-outside">
+                        <div class="border-inside">
+                            オンライン・マルチプレイでの他プレイヤーとのつながり
+                        </div>
+                        <div class="icon-right"></div>
+                    </div>
+                    <div class="line-2">
+                        <div class="line-2-content border-outside-b">
+                            <div class="border-inside-b">
+                                <span class="arrow-right"></span>
+                                コミュニケーション力、協調性
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="line-1 border-outside">
+                        <div class="border-inside">
+                            夢中になってプレイできる
+                        </div>
+                        <div class="icon-right"></div>
+                    </div>
+                    <div class="line-2">
+                        <div class="line-2-content border-outside-b">
+                            <div class="border-inside-b">
+                                <span class="arrow-right"></span>
+                                集中力
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="line-1 border-outside">
+                        <div class="border-inside">
+                            攻略方法を考えたり、戦況に合わせた立ち回り
+                        </div>
+                        <div class="icon-right"></div>
+                    </div>
+                    <div class="line-2">
+                        <div class="line-2-content border-outside-b">
+                            <div class="border-inside-b">
+                                <span class="arrow-right"></span>
+                                問題解決能力
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="line-1 border-outside">
+                        <div class="border-inside">
+                            巧みなキャラコンができる
+                        </div>
+                        <div class="icon-right"></div>
+                    </div>
+                    <div class="line-2">
+                        <div class="line-2-content border-outside-b">
+                            <div class="border-inside-b">
+                                <span class="arrow-right"></span>
+                                問題解決能力
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="line-1 border-outside">
+                        <div class="border-inside">
+                            たくさんの技やアイテムを覚える
+                        </div>
+                        <div class="icon-right"></div>
+                    </div>
+                    <div class="line-2">
+                        <div class="line-2-content border-outside-b">
+                            <div class="border-inside-b">
+                                <span class="arrow-right"></span>
+                                記憶力
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-title-benefit">
+            <div class="bg-benefit">
+                <div class="inner">
+                    <div class="text-content">
+                        <div class="line-1">
+                            これらのスキル、
+                        </div>
+                        <div class="line-2">
+                            仕事に活かせると私たちは確信しています
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-about">
+            <div class="inner">
+                <div class="content">
+                    <div class="row-item">
+                        <div class="info">
+                            <div class="title">
+                                平山について
+                            </div>
+                            <div class="description">
+                                <p>株式会社平山は東京証券取引所スタンダード市場上場企業である
+                                    平山ホールディングスのグループ会社です。<br></p>
+                                <p>
+                                    全国各地に支店・営業所がございます。<br>
+                                    製造請負事業や人材派遣、製造コンサルティングを手がけており、
+                                    日本のモノづくりを5 つの事業を通して支え、製造立国日本の繁
+                                    栄に貢献し、独自のサービスを常に開発するグローバルオンリー
+                                    ワン企業です。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="image-desc">
+                            <img src="./images/esports/esport_bg_1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row-item">
+                        <div class="info">
+                            <div class="title">
+                                私たちの想い
+                            </div>
+                            <div class="description">
+                               <p>
+                                   そもそもなぜ、弊社が esports をリスペクトしているのか。<br>
+                                   それは、ほんの遊びゴコロで実施した社内ゲーム大会がきっかけでした。<br>
+                                   参加者も多く、平山にはゲームを楽しむスタッフが沢山いることに気付いたんです。
+                               </p>
+                                <p>
+                                    しかもゲームって、一人で黙々とやるだけではなくチームを組み、自分の役割をこなして目的を達成していく… <br>
+                                    まさにモノづくりと似ていると感じ、【ゲーム × 平山】の可能性をもっと追及していきたい、高いゲームスキルを持った方に平山で働いてほしい、ゲームを通してスタッフの皆様がワクワクするような企画をたくさん実現したい！と思い、今に至ります。<br>
+                                    そして、ゲームをきっかけに社内で横の繋がりを持てるのではないかとも考えています。
+                                </p>
+                                <p>
+                                    皆さん、大人になってからの新しい友人や、気の合う仲間を見つける事って難しくありませんか？<br>
+                                    平山ではゲームが好きなスタッフが多く活躍しており、中には大会出場経験のある実力者も。<br>
+                                    本格的なゲーム大会や esports スポンサード制度を通じて社内の活性化に取り組み、配属先が異なっていても平山としての繋がりを持っていただけたら良いなと思っています。<br>
+                                    平山からプロが誕生したり、社内で組んだチームで公式大会で優勝したり。<br>
+                                    いつかそんな事もあったら良いなと夢見ています。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="image-desc">
+                            <img src="./images/esports/esport_bg_2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row-item">
+                        <div class="info">
+                            <div class="title">
+                                少しお節介な会社です
+                            </div>
+                            <div class="description">
+                                <p>
+                                    ストレス社会ともいわれている世の中、ゲームで解消できれば良
+                                    いのですがそうはいかない事もありますよね。
+                                </p>
+                               <p>
+                                   負けてイライラして逆にストレスが溜まってしまう事も…。
+                                   そして悩み事は職場や友人、家族にも相談できない事があると思
+                                   います。
+                               </p>
+                                <p>
+                                    そんな時、平山ではカウンセリング制度があり、資格を持ったカ
+                                    ウンセラーがメンタル部分をサポートします。
+                                    「解決したい事がある」「ただ話を聞いて欲しい」など
+                                    どんな些細な事でも大丈夫です。
+                                </p>
+                                <p>
+                                    もちろん、プライパシーもしっかりと守られていますのでご安心
+                                    くださいね。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="image-desc">
+                            <img src="./images/esports/esport_bg_3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-brand">
+            <div class="bg-brand">
+                <div class="inner">
+                    <div class="content">
+                        <div class="line-1">
+                            <span>GAME</span> <span>|</span> <span>esport</span> <span>×</span> <span>HIRAYAMA</span>
+                        </div>
+                        <div class="line-2">
+                            <span>の取り組み</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-sponsor">
+            <div class="bg-sponsor">
+                <div class="block-empty">
+
+                </div>
+                <div class="inner">
+                    <div class="content-1 border-gd">
+                        <div class="label">
+                            スポンサード制度があります
+                        </div>
+                        <div class="content-description">
+                            <p>
+                                esports 大会への参加を支援します。<br>
+                                大会の成績によって会社からゲーム周辺機器購入費や大会交通費を補助します。
+                                ジャンルは問いません。<br>
+                                仕事以外でのアナタの頑張りも応援させてください。<br>
+                                スポンサードランクは大会後に成績をもとに審査し、決定します。
+                            </p>
+                            <p>
+                                プロを目指しているヘビーゲーマーも、<br>
+                                趣味の範囲で楽しんでいるライトゲーマーも問わず制度をご利用いただけます。
+                            </p>
+                        </div>
+                        <div class="box-bg-white">
+                            スポンサードランク
+                        </div>
+                        <div class="box-right">
+                            <div class="item">
+                                <div class="icon">
+                                    <img src="./images/esports/esport_rank_a.png" alt="">
+                                </div>
+                                <div class="list-option">
+                                    <div class="line">
+                                        国内大会への <span class="text-yellow">交通費全額支給</span>
+                                    </div>
+                                    <div class="line">
+                                        大会参加時の <span class="text-yellow">宿泊費全額支給</span>
+                                    </div>
+                                    <div class="line">
+                                        ゲーム周辺機器、デスク、チェア、PC などの購入費用を<span class="text-yellow">年間50 万円まで補助</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="icon">
+                                    <img src="./images/esports/esport_rank_b.png" alt="">
+                                </div>
+                                <div class="list-option">
+                                    <div class="line">
+                                        国内大会への<span class="text-yellow">交通費全額支給</span>
+                                    </div>
+                                    <div class="line">
+                                        ゲーム周辺機器、デスク、チェアなどの購入費用を<span class="text-yellow">年間20 万円まで補助</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="icon">
+                                    <img src="./images/esports/esport_rank_c.png" alt="">
+                                </div>
+                                <div class="list-option">
+                                    <div class="line">
+                                        国内大会への<span class="text-yellow">交通費半額支給</span>
+                                    </div>
+                                    <div class="line">
+                                        ゲーム周辺機器、デスク、チェアなどの購入費用を<span class="text-yellow">年間5 万円まで補助</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-2 border-gd">
+                        <div class="label">
+                            本格的な社内ゲーム大会の開催
+                        </div>
+                        <div class="content-description">
+                            <p>
+                                実況や解説付の本格的なスタイルで開催しています。<br>
+                                ゲームタイトルにもよりますが、当日はYouTube でライブ配信も行っており参加者以外の
+                                スタッフも楽しんでいます。<br>
+                                ゆくゆくは社内の運営側、esports 事務局として活躍する事も可能ですので裏側に興味があ
+                                る方もぜひ。
+                            </p>
+                        </div>
+                        <div class="box-bg-white">
+                            スポンサードランク
+                        </div>
+                        <div class="box-bg-youtube">
+                            <div class="text">
+                                <div class="border-text">
+                                    平山・トップ杯２ ０ ２ ３夏
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line-link">
+                            ※クリックで別窓が開きます
+                        </div>
+                    </div>
+                    <div class="content-3 border-gd">
+                        <div class="label">
+                            紹介制度があります
+                        </div>
+                        <div class="content-description">
+                            <p>
+                                「普段一緒にプレイするチームメンバーと、スポンサード制度を受けたり一緒に社内大会に
+                                出たい」そんな方に。<br>
+                                入社後に他の方へ平山を紹介し、その方が入社した場合は報酬を支給します。
+                            </p>
+                            <p>
+                                知人・友人・家族・元同僚など関係性は問いません。
+                                ぜひ皆さんでスポンサード制度を使ってくださいね。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-recruitment">
+            <div class="inner">
+                <div class="box-desc">
+                    <div class="big-title">
+                        採用情報
+                    </div>
+                    <div class="text-desc">
+                        ※職種やエリアにより条件が異なりますので、詳細や面接・説明会についてはお問合せください
+                    </div>
+                </div>
+
+                <div class="block-recruitment-item">
+                    <div class="title-bg-white">
+                        中途｜キャリア採用
+                    </div>
+                    <div class="line">
+                        <div class="box-rounded">
+                            <span class="text-number">01</span>製造職
+                        </div>
+                        <div class="text-desc">
+                            配属先は全国各地にありますので、お住まいやご希望に合わせて配属いたします。
+                            転勤はありませんが、ご希望であれば転勤有りの条件での採用も可能です。（待遇UP）
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="box-rounded">
+                            <span class="text-number">02</span>設備保全・設備管理職
+                        </div>
+                        <div class="text-desc">
+                            既に知識や経験がある方はもちろん、研修プログラムがあるのでゼロから始める事も
+                            可能です。お給料を貰いながら学ぶことができます。
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="box-rounded">
+                            <span class="text-number">03</span>営業職・採用担当職
+                        </div>
+                        <div class="text-desc">
+                            各支店・営業所への配属となります。
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="box-rounded">
+                            <span class="text-number">04</span>管理職
+                        </div>
+                        <div class="text-desc">
+                            請負事業所での管理者、管理者候補。
+                            未経験の方はまずは製造職から始め、将来的にキャリアアップも可能です。
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block-recruitment-item">
+                    <div class="title-bg-white">
+                        新卒採用
+                    </div>
+                    <div class="line">
+                        <div class="box-rounded">
+                            <span class="text-number">01</span>キャリア総合職・ISD 総合職・エリア総合職
+                        </div>
+                        <div class="text-desc">
+                            失敗を恐れずに挑戦したい、人と話すのが好き、仲間の輪を重んじて働きたい方に。
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="box-rounded">
+                            <span class="text-number">02</span>ファクトリー職・FE 職・FM 職
+                        </div>
+                        <div class="text-desc">
+                            モノづくりに携わりたい、縁の下の力持ちとして活躍したい方に。
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="box-rounded">
+                            <span class="text-number">03</span>看護助手職・管理部事務職
+                        </div>
+                        <div class="text-desc">
+                            人をサポートするのが好きな方に。
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="box-rounded">
+                            <span class="text-number">04</span>バイオ研究補助職
+                        </div>
+                        <div class="text-desc">
+                            研究開発のアシスタントとして経験を活かしたい方に。
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-desc">
+                    <div class="big-title">
+                        充実の福利厚生で仕事もサポート
+                    </div>
+                </div>
+                <div class="list-welfare">
+                    <div class="line">
+                        寮・社宅（家具家電付き/ ファミリー向け、ペット可物件もあり）
+                    </div>
+                    <div class="line">
+                        引越サポート
+                    </div>
+                    <div class="line">
+                        交通費支給　※車やバイク通勤の場合も支給
+                    </div>
+                    <div class="line">
+                        社会保険完備（雇用・労災・健康・厚生年金）
+                    </div>
+                    <div class="line">
+                        時間外手当（全額支給）
+                    </div>
+                    <div class="line">
+                        職能手当
+                    </div>
+                    <div class="line">
+                        昇格制度
+                    </div>
+                    <div class="line">
+                        社員食堂（定食260 円～）
+                    </div>
+                    <div class="line">
+                        社内分煙
+                    </div>
+                    <div class="line">
+                        制服貸与、個別ロッカーあり
+                    </div>
+                    <div class="line">
+                        紹介制度
+                    </div>
+                    <div class="line">
+                        ココロケアサポートあり（24 時間専門家が相談に応じるサポート）
+                    </div>
+                    <div class="line">
+                        esports 応援制度
+                    </div>
+                    <div class="line">
+                        ※規定有
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="block-contact">
+            <div class="block-contact-top">
+                <div class="inner">
+                    <div class="box-text">
+                        <div class="text-item">
+                            一緒に働きながら
+                        </div>
+                        <div class="text-item">
+                            esportsも
+                        </div>
+                        <div class="text-item">
+                            楽しみましょう！
+                        </div>
+                        <div class="btn-link">
+                            会社概要はコチラ
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-person">
+                <div class="image">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="./images/esports/esports_person.png">
+                        <source media="(min-width: 768px)" srcset="./images/esports/esports_person_pc.png">
+                        <img src="./images/esports_person_pc.png" alt="" title="">
+                    </picture>
+                </div>
+            </div>
+
+            <div class="block-contact-bottom">
+                <div class="title-bg-cross">
+                    応募または相談/お問合せはこちら
+                </div>
+                <div class="title-contact">
+                    <img src="./images/esports/esport_text_tr.png" alt="">
+                </div>
+                <div class="title-contact-small">
+                    24 時間 365 日受付中 <br>
+                    お電話の場合は受付後、第二営業日以内に担当よりご連絡します。
+                </div>
+                <div class="image-contact">
+                    <img src="./images/esports/esport_contact.png" alt="">
+                </div>
+                <div class="title-register">
+                    <img src="./images/esports/esport_contact_form_img.png" alt="">
+                </div>
+                <div class="form-contact">
+                    <div class="inner">
+                        <form action="">
+                            <div class="items">
+                                <div class="item item-1">
+                                    <label for="">氏（カナ）<span>必須</span></label>
+                                    <input type="text" name="">
+                                </div>
+                                <div class="item item-2">
+                                    <label for="">名（カナ）<span>必須</span></label>
+                                    <input type="text" name="">
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="item">
+                                    <label for="">生年月日<span>必須</span></label>
+                                    <div class="item-row">
+                                        <div class="select-box">
+                                            <select required="">
+                                                <option>―年―</option>
+                                                <option>2000</option>
+                                                <option>1999</option>
+                                                <option>1998</option>
+                                                <option>1997</option>
+                                                <option>1996</option>
+                                            </select>
+                                            <img class="icon-down"src="./images/esports/esport_icon-down.png" alt="">
+                                        </div>
+                                        <div class="select-box">
+                                            <select required="">
+                                                <option>―月―</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10</option>
+                                                <option>11</option>
+                                                <option>12</option>
+                                            </select>
+                                            <img class="icon-down" src="./images/esports/esport_icon-down.png" alt="">
+                                        </div>
+                                        <div class="select-box">
+                                            <select>
+                                                <option>―日―</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10</option>
+                                                <option>11</option>
+                                                <option>12</option>
+                                            </select>
+                                            <img class="icon-down" src="./images/esports/esport_icon-down.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="item">
+                                    <label for="">住所（都道府県）<span>必須</span></label>
+                                    <div class="select-box">
+                                        <select>
+                                            <option>選択してください</option>
+                                            <option>〇応募したい（中途｜キャリア採用）</option>
+                                            <option>〇応募したい（新卒）</option>
+                                            <option>〇問合せ・相談したい</option>
+                                        </select>
+                                        <img class="icon-down" src="./images/esports/esport_icon-down.png" alt="">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="item">
+                                    <label for="">住所（市区町村まで）<span>必須</span></label>
+                                    <input type="text" name="">
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="item">
+                                    <label for="">電話番号<span>必須</span></label>
+                                    <input type="text" name="" placeholder="ハイフンなしでご入力ください">
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="item">
+                                    <label for="">メールアドレス<span>必須</span></label>
+                                    <input type="text" name="" id="" placeholder="例）your@qxample.com">
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="item">
+                                    <label for="">応募・問合せ<span>必須</span></label>
+                                    <div class="select-box">
+                                        <select>
+                                            <option>選択してください</option>
+                                            <option>〇応募したい（中途｜キャリア採用）</option>
+                                            <option>〇応募したい（新卒）</option>
+                                            <option>〇問合せ・相談したい</option>
+                                        </select>
+                                        <img class="icon-down" src="./images/esports/esport_icon-down.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="item">
+                                    <label for="">その他<span>任意</span></label>
+                                    <textarea></textarea>
+                                </div>
+                            </div>
+                            <div class="check">
+                                <p class="text">当社のプライバシーポリシーに同意の上、送信してください。</p>
+                                <label for="check_f">プライバシーポリシーに同意<span>必須</span>
+                                <input id="check_f" type="checkbox" />
+                                </label>
+                            </div>
+                            <div class="submit">
+                                <a class="submit-link" href="">送信する</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="block-copy">
+                        <div class="inner">
+                            <p class="text-big">日本のモノづくりを支える製造支援会社</p>
+                            <div class="img">
+                                <picture>
+                                    <source media="(max-width: 767px)" srcset="./images/esports/esports_logo_bot.png">
+                                    <source media="(min-width: 768px)" srcset="./images/esports/esports_logo_bot.png">
+                                    <img src="./images/esports/esports_logo_bot.png" alt="" title="">
+                                </picture>
+                            </div>
+                            <p class="text-sm">Copyright© HIRAYAMA Co.,Ltd. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-fixed">
+            <div class="item item-left">
+                <p class="text">電話でのご応募はコチラ</p>
+                <p class="text-yel">0120-516-745</p>
+                <p class="text-sm">フリーダイヤル<span>/24ｈ</span>受付中</p>
+            </div>
+            <div class="item item-right">
+                <div class="item-box">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="./images/esports/esports_btnfixed.png">
+                        <source media="(min-width: 768px)" srcset="./images/esports/esports_btnfixed.png">
+                        <img src="./images/esports/esports_btnfixed.png" alt="" title="">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</main>
+
+<!-- ↑ 編集可能領域 ↑ -->
+
+
+<!-- ↓ 編集不可領域 ↓ -->
+
+</body>
+</html>
